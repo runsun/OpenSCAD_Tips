@@ -15,7 +15,7 @@
 | [Curved Image](http://forum.openscad.org/Images-on-curved-cylindrical-surface-td17823.html) |
 | [excel-control](http://forum.openscad.org/Parameterlist-Excel-export-to-OpenSCAD-tp15363p15367.html) |
 | [gear](http://lcamtuf.coredump.cx/gcnc/ch6/#6.1) |
-| [hash](http://forum.openscad.org/parameterized-models-td8303.html#a8306)([2](http://forum.openscad.org/Can-I-get-some-code-review-up-in-here-tp12341p12355.html)) |
+| [hash](http://forum.openscad.org/parameterized-models-td8303.html#a8306)([2](http://forum.openscad.org/Can-I-get-some-code-review-up-in-here-tp12341p12355.html), [search()](http://forum.openscad.org/Digging-into-search-td12421.html) ) |
 | [isosphere](http://forum.openscad.org/New-Algorithm-for-Spheres-tp13306p17062.html)([2](http://blog.andreaskahler.com/2009/06/creating-icosphere-mesh-in-code.html)) |
 | [lerp](http://forum.openscad.org/Irregular-mesh-generated-tp13765p13779.html ) |
 | [matrix](http://www.thingiverse.com/thing:10249/#files)([2](http://forum.openscad.org/restrict-hull-function-to-one-or-two-dimensions-tp16696p16722.html),[3](https://github.com/lhartmann/openscad_m4lib/blob/master/m4.scad)) |  
