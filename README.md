@@ -28,10 +28,12 @@
 | [tests](http://forum.openscad.org/Clarifying-behaviors-tp18492p18507.html)([2](http://forum.openscad.org/tests-in-OpenSCAD-td8978.html)) |
 | [text](http://forum.openscad.org/Wrapping-text-around-a-complex-geometry-tc18145.html) | 
 | [triangulation](http://forum.openscad.org/Simple-polygon-triangulation-td16755.html) |
+| [tube] [Ronaldo's](http://forum.openscad.org/file/n19680/Tube_example.scad), [Runsun's](http://forum.openscad.org/Bent-rod-td14003.html), [Johan's](http://forum.openscad.org/method-to-sweep-or-skin-a-hollow-object-without-difference-function-tp19677p19688.html) |
 | [type-checking](http://forum.openscad.org/Determining-what-data-type-a-variable-is-holding-tp16111p16126.html) |
 | [unit](http://forum.openscad.org/Output-inch-hardware-sizes-td19204.html) |
 | [variable](http://forum.openscad.org/Ignoring-unknown-variable-issue-tp13156p13321.html)([2](http://forum.openscad.org/Special-Variables-tp14477p14512.html)) |
 | [volume/center](http://forum.openscad.org/Volume-and-Center-of-mass-td15421.html) |
+| [Wavy solid] [Parkinbot's] (http://forum.openscad.org/Sweeping-a-cone-through-a-range-of-angles-about-the-origin-tp19662p19676.html) |
 
 | $ **OpenSCAD variations** | 
 | ----------------------------------------|
