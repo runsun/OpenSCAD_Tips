@@ -5,6 +5,7 @@
 |[OpenSCAD language ref](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language) |
 |[cheet sheet](http://www.openscad.org/cheatsheet/) |
 |[Work in Progress](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/WIP) |
+|[Nightly snapshots](http://files.openscad.org/snapshots/) |
 
 | $ **tips** | 
 |------------|
