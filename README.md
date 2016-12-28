@@ -6,6 +6,8 @@
 |[cheet sheet](http://www.openscad.org/cheatsheet/) |
 |[Work in Progress](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/WIP) |
 |[Nightly snapshots](http://files.openscad.org/snapshots/) |
+|[OpenSCAD forum](http://forum.openscad.org)|
+|[OpenSCAD freenode IRC] (http://webchat.freenode.net/?channels=#openscad)|
 
 | $ **tips** | 
 |------------|
@@ -39,8 +41,17 @@
 | $ **OpenSCAD variations** | 
 | ----------------------------------------|
 | [openjscad](http://www.openjscad.org/) |
+| [ImplicitCad (ExtOpenScad)] (http://www.implicitcad.org/examples/twisted_extrusion) |
 | [OpenSCAD on rollApp](https://www.rollapp.com/launch/openscad) | 
 | [OpenSCAD on AWS](http://forum.openscad.org/Running-OpenSCAD-on-an-Amazon-AWS-EC2-server-td9544.html)([pdf](http://files.openscad.org/public/OpenSCAD%20on%20EC2.pdf)) |
+
+| $ **tools** |
+| ----------------------------------------|
+|[STL viewers](http://forum.openscad.org/looking-for-a-good-STL-viewer-locally-application-td19722.html)| 
+|[Smithsonia X3D explorer](http://3d.si.edu/explorer?modelid=1341)|
+|[SVGNesting] (http://svgnest.com/)|
+|[SketchPad] (http://studio.sketchpad.cc/sp/account/sign-in?cont=http%3a%2f%2fstudio.sketchpad.cc%2f)|
+|[GoJS polygon drawing] (http://gojs.net/latest/extensions/PolygonDrawing.html?gclid=CNmkgNW0ldECFY22wAodAH8EZQ)|
 
 |$ **Other cads**| 
 |------------------|
