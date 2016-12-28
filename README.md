@@ -47,6 +47,7 @@
 
 | $ **tools** |
 | ----------------------------------------|
+|[Polygon Rabbit](http://www.protorabbit.nl/flash/polygonrabbit/PolygonRabbit.html)|
 |[STL viewers](http://forum.openscad.org/looking-for-a-good-STL-viewer-locally-application-td19722.html)| 
 |[Smithsonia X3D explorer](http://3d.si.edu/explorer?modelid=1341)|
 |[SVGNesting] (http://svgnest.com/)|
