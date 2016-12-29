@@ -17,7 +17,7 @@
 | [Chinese font](http://forum.openscad.org/How-to-write-a-texture-to-a-face-Solid-in-a-geometric-model-tp16718p16753.html) |
 | [Curved Image](http://forum.openscad.org/Images-on-curved-cylindrical-surface-td17823.html) |
 | [excel-control](http://forum.openscad.org/Parameterlist-Excel-export-to-OpenSCAD-tp15363p15367.html) |
-| [flatten surface] [nophead's] (http://forum.openscad.org/flattening-curved-surfaces-tp19727p19763.html), [runsun's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19782.html) |
+| [flatten surface] [nophead's] (http://forum.openscad.org/flattening-curved-surfaces-tp19727p19763.html), [runsun's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19782.html) [osresearch papercraft](https://github.com/osresearch/papercraft), [Parkinbot's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19807.html) |
 | [gear](http://lcamtuf.coredump.cx/gcnc/ch6/#6.1) |
 | [hash](http://forum.openscad.org/parameterized-models-td8303.html#a8306)([2](http://forum.openscad.org/Can-I-get-some-code-review-up-in-here-tp12341p12355.html), [search()](http://forum.openscad.org/Digging-into-search-td12421.html) ) |
 | [isosphere](http://forum.openscad.org/New-Algorithm-for-Spheres-tp13306p17062.html)([2](http://blog.andreaskahler.com/2009/06/creating-icosphere-mesh-in-code.html)) |
@@ -53,6 +53,7 @@
 |[SVGNesting] (http://svgnest.com/)|
 |[SketchPad] (http://studio.sketchpad.cc/sp/account/sign-in?cont=http%3a%2f%2fstudio.sketchpad.cc%2f)|
 |[GoJS polygon drawing] (http://gojs.net/latest/extensions/PolygonDrawing.html?gclid=CNmkgNW0ldECFY22wAodAH8EZQ)|
+|[[osresearch papercraft](https://github.com/osresearch/papercraft) |
 
 |$ **Other cads**| 
 |------------------|
