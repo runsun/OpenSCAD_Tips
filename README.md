@@ -46,6 +46,8 @@
 | [ImplicitCad (ExtOpenScad)] (http://www.implicitcad.org/examples/twisted_extrusion) |
 | [OpenSCAD on rollApp](https://www.rollapp.com/launch/openscad) | 
 | [OpenSCAD on AWS](http://forum.openscad.org/Running-OpenSCAD-on-an-Amazon-AWS-EC2-server-td9544.html)([pdf](http://files.openscad.org/public/OpenSCAD%20on%20EC2.pdf)) |
+| [OpenPyScad](https://github.com/taxpon/openpyscad)|
+| [SolidPython](https://github.com/SolidCode/SolidPython) |
 
 | $ **tools** |
 | ----------------------------------------|
