@@ -57,7 +57,7 @@
 |[SVGNesting] (http://svgnest.com/)|
 |[SketchPad] (http://studio.sketchpad.cc/sp/account/sign-in?cont=http%3a%2f%2fstudio.sketchpad.cc%2f)|
 |[GoJS polygon drawing] (http://gojs.net/latest/extensions/PolygonDrawing.html?gclid=CNmkgNW0ldECFY22wAodAH8EZQ)|
-|[[osresearch papercraft](https://github.com/osresearch/papercraft) |
+|[osresearch papercraft](https://github.com/osresearch/papercraft) |
 
 |$ **Other cads**| 
 |------------------|
@@ -67,6 +67,7 @@
 |---------------------|
 |[shapeoko.com](http://www.shapeoko.com/wiki/index.php/OpenSCAD#Other_Support_Tools)|
 |[Fablab](http://fablabamersfoort.nl/book/openscad)|
+|[William Adams] (http://www.shapeoko.com/wiki/index.php/Programmatic_G-Code_Generators)|
 
 |$ **My libs** |
 |---------------------|
