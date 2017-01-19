@@ -58,7 +58,7 @@
 
 | $ **Lib systems** |
 |------------------|
-| [Roya Sutton's odml] (http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html) |
+| [Roya Sutton's odml] (http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html) [pdf](https://cdn.thingiverse.com/assets/3c/16/d2/00/ea/refman.pdf)|
 
 | $ **OpenSCAD variations** | 
 | ----------------------------------------|
