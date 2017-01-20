@@ -3,7 +3,7 @@
 
 | Type | API | Source | Remark |
 |------|-----|--------|--------|
-|Module| **Line**( *pts, [r,closed,color,transp,fn]* ) | Inspired by [Ronaldo](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19330.html) | |
+|Module| **Line**( *pts* ) | Inspired by [Ronaldo](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19330.html) | Much more efficient than a direct hull() of points|
 
 ```javascript
 module Line(pts, r=0.05, closed=false, color=undef, transp=1, fn=4)
