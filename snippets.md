@@ -1,12 +1,30 @@
 ## OpenSCAD snippets for copy and paste ##
 
 
+
+| Type | API | Source | Remark |
+|------|-----|--------|--------|
+|Func| **hash**( *h,k* ) | Runsun | Very efficient search()-based associated array|
+
+```javascript
+function hash(h,k, notfound)= 
+(
+  let(rtn = h[ search([k], [for(i=[0:2:len(h)-2])h[i]])[0]*2+1 ])
+  rtn==undef?notfound:rtn
+);  
+
+echo( hash( ["a",1,"b",2], "a" ) );  // 1
+echo( hash( ["a",1,"b",2], "b" ) );  // 2
+echo( hash( ["a",1,"b",2], "c" ) );  // undef
+echo( hash( ["a",1,"b",2], "c", "missing" ) ); // "missing"
+```
+
 | Type | API | Source | Remark |
 |------|-----|--------|--------|
 |Module| **Line**( *pts* ) | Inspired by [Ronaldo](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19330.html) | Much more efficient than a direct hull() of points|
 
 ```javascript
-module Line(pts, r=0.05, closed=false, color=undef, transp=1, fn=4)
+module Line( pts, r=0.05, closed=false, color=undef, transp=1, fn=4 )
 {
   if(len(pts)>1 && len(pts[0])>1 && r>0) 
   { 
