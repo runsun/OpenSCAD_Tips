@@ -17,6 +17,7 @@
 | [Bezier](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19309.html) |
 | [Chinese font](http://forum.openscad.org/How-to-write-a-texture-to-a-face-Solid-in-a-geometric-model-tp16718p16753.html) |
 | [Curved Image](http://forum.openscad.org/Images-on-curved-cylindrical-surface-td17823.html) |
+| [Curve Text] (http://openhome.cc/eGossip/OpenSCAD/ModifierCharacters.html) |
 | Degenerate polygon [Ronaldo] (http://forum.openscad.org/Polyhedron-degenerated-triangles-are-allowed-but-quads-td19917.html) |
 | [excel-control](http://forum.openscad.org/Parameterlist-Excel-export-to-OpenSCAD-tp15363p15367.html) |
 | Flatten surface: [nophead's] (http://forum.openscad.org/flattening-curved-surfaces-tp19727p19763.html), [runsun's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19782.html), [osresearch papercraft](https://github.com/osresearch/papercraft), [Parkinbot's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19807.html) |
@@ -86,5 +87,13 @@
 | [offline doc](http://forum.openscad.org/Use-openscad-offliner-for-offline-documentation-td13096.html)([git](https://github.com/runsun/openscad_offliner)) |
 | [runscad.py](http://forum.openscad.org/Animating-gif-with-3D-rotation-tp14011p14029.html)([2](http://forum.openscad.org/Symmetrical-Rotation-tp14062p14075.html), [git](https://gist.github.com/runsun/995250a8002386ab9abc)) |
 | [synwrite](http://forum.openscad.org/Happy-New-Year-OpenSCAD-syntax-lexer-for-SynWrite-td15402.html)([2](http://www.thingiverse.com/thing:1237864)) |
+
+|$ **Inspiration** |
+|---------------------|
+| [Santos's js 2d/3d transform lib] (https://github.com/ruisoftware/jquery-rsSlideIt)|
+
+|$ **References** |
+|---------------------|
+| Math: [R.Penner's Easing func](http://robertpenner.com/easing/) |
 
 [$](http://forum.openscad.org/mailing_list/MailingListOptions.jtp?forum=1) *Runsun Pan, PhD* 
