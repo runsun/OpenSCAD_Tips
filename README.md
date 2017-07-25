@@ -7,7 +7,7 @@
 |[Work in Progress](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/WIP) |
 |[Nightly snapshots](http://files.openscad.org/snapshots/) |
 |[OpenSCAD forum](http://forum.openscad.org)|
-|[OpenSCAD freenode IRC] (http://webchat.freenode.net/?channels=#openscad)|
+|[OpenSCAD freenode IRC](http://webchat.freenode.net/?channels=#openscad)|
 
 | $ **tips** | 
 |------------|
@@ -20,20 +20,20 @@
 | Curve Text: [JustinSDK](http://openhome.cc/eGossip/OpenSCAD/ModifierCharacters.html), [MichaelAtOz] (http://forum.openscad.org/textCylinder-dodgy-version-for-text-around-a-cylinder-td9262.html#a9265) |
 | Degenerate polygon [Ronaldo] (http://forum.openscad.org/Polyhedron-degenerated-triangles-are-allowed-but-quads-td19917.html) |
 | [excel-control](http://forum.openscad.org/Parameterlist-Excel-export-to-OpenSCAD-tp15363p15367.html) |
-| Flatten surface: [nophead's] (http://forum.openscad.org/flattening-curved-surfaces-tp19727p19763.html), [runsun's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19782.html), [osresearch papercraft](https://github.com/osresearch/papercraft), [Parkinbot's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19807.html) |
+| Flatten surface: [nophead's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19763.html), [runsun's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19782.html), [osresearch papercraft](https://github.com/osresearch/papercraft), [Parkinbot's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19807.html) |
 | [gear](http://lcamtuf.coredump.cx/gcnc/ch6/#6.1), [Parkinbot](http://www.thingiverse.com/thing:636119) |
-| hash: [1](http://forum.openscad.org/parameterized-models-td8303.html#a8306), [2](http://forum.openscad.org/Can-I-get-some-code-review-up-in-here-tp12341p12355.html), [Search-based hash] (http://www.thingiverse.com/groups/openscad/topic:5610#comment-1093645) |
+| hash: [1](http://forum.openscad.org/parameterized-models-td8303.html#a8306), [2](http://forum.openscad.org/Can-I-get-some-code-review-up-in-here-tp12341p12355.html), [Search-based hash](http://www.thingiverse.com/groups/openscad/topic:5610#comment-1093645) |
 | [isosphere](http://forum.openscad.org/New-Algorithm-for-Spheres-tp13306p17062.html)([2](http://blog.andreaskahler.com/2009/06/creating-icosphere-mesh-in-code.html)) |
 | [lerp](http://forum.openscad.org/Irregular-mesh-generated-tp13765p13779.html ) |
 | [Lazy Union by Parkinbot](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20126.html), [Ronaldo's](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20140.html) |
 | [matrix](http://www.thingiverse.com/thing:10249/#files)([2](http://forum.openscad.org/restrict-hull-function-to-one-or-two-dimensions-tp16696p16722.html),[3](https://github.com/lhartmann/openscad_m4lib/blob/master/m4.scad)) |  
-| Parser: [Parkinbot's stl parser]( http://forum.openscad.org/flattening-curved-surfaces-tp19727p19816.html) |
+| Parser: [Parkinbot's stl parser](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19816.html) |
 | [precision](http://forum.openscad.org/Inconsistent-conversion-of-floating-number-to-string-at-7th-significant-digit-tp14350.html)([2](http://forum.openscad.org/Simple-addition-of-numbers-introduces-error-td14408.html)) |
 | [RGB](http://forum.openscad.org/An-HSV-HSB-to-RGB-Color-function-in-OpenSCAD-td9835.html) |
 | [rounded polygon](http://forum.openscad.org/Script-to-replicate-hull-and-minkoswki-for-CSG-export-import-into-FreeCAD-td16537.html) |
 | Search(): [details](http://forum.openscad.org/Digging-into-search-td12421.html) |
-| Spring: [Parkinbot] (http://forum.openscad.org/how-to-make-the-groove-more-width-tp20154p20158.html) |
-| [sweep](http://forum.openscad.org/Two-annoyances-td12935i20.html#a13110)([2](http://forum.openscad.org/Vertex-arrays-tp15876p15969.html),[3](http://forum.openscad.org/file/n18324/sweep2.scad)), [Benjemin Easing Func] (http://forum.openscad.org/Sweep-with-easing-equations-td20075.html)|
+| Spring: [Parkinbot](http://forum.openscad.org/how-to-make-the-groove-more-width-tp20154p20158.html) |
+| [sweep](http://forum.openscad.org/Two-annoyances-td12935i20.html#a13110)([2](http://forum.openscad.org/Vertex-arrays-tp15876p15969.html),[3](http://forum.openscad.org/file/n18324/sweep2.scad)), [Benjemin Easing Func](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html)|
 | [tail Recursion](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)([2](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16962.html),[3](http://forum.openscad.org/Tail-recursion-td17040.html),[4](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)) |
 | [text](http://forum.openscad.org/Wrapping-text-around-a-complex-geometry-tc18145.html) | 
 | testing: [tests in OpenSCAD](http://forum.openscad.org/Clarifying-behaviors-tp18492p18507.html)([2](http://forum.openscad.org/tests-in-OpenSCAD-td8978.html)), [RoyaSutton](http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html)([pdf](https://cdn.thingiverse.com/assets/3c/16/d2/00/ea/refman.pdf)), [runsun's doctest](https://github.com/runsun/openscad_doctest)|
@@ -43,31 +43,31 @@
 | [unit](http://forum.openscad.org/Output-inch-hardware-sizes-td19204.html) |
 | [variable](http://forum.openscad.org/Ignoring-unknown-variable-issue-tp13156p13321.html)([2](http://forum.openscad.org/Special-Variables-tp14477p14512.html)) |
 | [volume/center](http://forum.openscad.org/Volume-and-Center-of-mass-td15421.html) |
-| [Warning, User] (http://forum.openscad.org/Sweep-with-easing-equations-td20075.html) |
+| [Warning, User](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html) |
 | Wavy solid: [Parkinbot's] (http://forum.openscad.org/Sweeping-a-cone-through-a-range-of-angles-about-the-origin-tp19662p19676.html) |
 
 | $ **tools** |
 | ----------------------------------------|
-|[Daid's Polygon maker] (http://daid.eu/~daid/3d/) |
+|[Daid's Polygon maker](http://daid.eu/~daid/3d/) |
 |[Polygon Rabbit](http://www.protorabbit.nl/flash/polygonrabbit/PolygonRabbit.html)|
 |[STL viewers](http://forum.openscad.org/looking-for-a-good-STL-viewer-locally-application-td19722.html)| 
 |[Smithsonia X3D explorer](http://3d.si.edu/explorer?modelid=1341)|
-|[SVGNesting] (http://svgnest.com/)|
-|[SketchPad] (http://studio.sketchpad.cc/sp/account/sign-in?cont=http%3a%2f%2fstudio.sketchpad.cc%2f)|
+|[SVGNesting](http://svgnest.com/)|
+|[SketchPad](http://studio.sketchpad.cc/sp/account/sign-in?cont=http%3a%2f%2fstudio.sketchpad.cc%2f)|
 |[GoJS polygon drawing] (http://gojs.net/latest/extensions/PolygonDrawing.html?gclid=CNmkgNW0ldECFY22wAodAH8EZQ)|
 |[osresearch papercraft](https://github.com/osresearch/papercraft) |
 |[Neon22's Inkscape to OpenSCAD converter](http://www.thingiverse.com/thing:1065500)|
 
 | $ **Lib systems** |
 |------------------|
-| [Roya Sutton's odml] (http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html) [pdf](https://cdn.thingiverse.com/assets/3c/16/d2/00/ea/refman.pdf)|
-| [Jonathan Law's JointSCAD] (https://github.com/HopefulLlama/JointSCAD) |
-| [Justin Lin's dotSCAD] (https://github.com/JustinSDK/dotSCAD) |
+| [Roya Sutton's odml](http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html) [pdf](https://cdn.thingiverse.com/assets/3c/16/d2/00/ea/refman.pdf)|
+| [Jonathan Law's JointSCAD](https://github.com/HopefulLlama/JointSCAD) |
+| [Justin Lin's dotSCAD](https://github.com/JustinSDK/dotSCAD) |
 
 | $ **OpenSCAD variations** | 
 | ----------------------------------------|
 | [openjscad](http://www.openjscad.org/) |
-| [ImplicitCad (ExtOpenScad)] (http://www.implicitcad.org/examples/twisted_extrusion) |
+| [ImplicitCad (ExtOpenScad)](http://www.implicitcad.org/examples/twisted_extrusion) |
 | [OpenSCAD on rollApp](https://www.rollapp.com/launch/openscad) | 
 | [OpenSCAD on AWS](http://forum.openscad.org/Running-OpenSCAD-on-an-Amazon-AWS-EC2-server-td9544.html)([pdf](http://files.openscad.org/public/OpenSCAD%20on%20EC2.pdf)) |
 | [OpenPyScad](https://github.com/taxpon/openpyscad)|
@@ -93,7 +93,7 @@
 
 |$ **Inspiration** |
 |---------------------|
-| [Santos's js 2d/3d transform lib] (https://github.com/ruisoftware/jquery-rsSlideIt)|
+| [Santos's js 2d/3d transform lib](https://github.com/ruisoftware/jquery-rsSlideIt)|
 
 |$ **References** |
 |---------------------|
