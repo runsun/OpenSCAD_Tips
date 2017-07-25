@@ -17,8 +17,8 @@
 | [Bezier](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19309.html) |
 | [Chinese font](http://forum.openscad.org/How-to-write-a-texture-to-a-face-Solid-in-a-geometric-model-tp16718p16753.html) |
 | [Curved Image](http://forum.openscad.org/Images-on-curved-cylindrical-surface-td17823.html) |
-| Curve Text: [JustinSDK](http://openhome.cc/eGossip/OpenSCAD/ModifierCharacters.html), [MichaelAtOz] (http://forum.openscad.org/textCylinder-dodgy-version-for-text-around-a-cylinder-td9262.html#a9265) |
-| Degenerate polygon [Ronaldo] (http://forum.openscad.org/Polyhedron-degenerated-triangles-are-allowed-but-quads-td19917.html) |
+| Curve Text: [JustinSDK](http://openhome.cc/eGossip/OpenSCAD/ModifierCharacters.html), [MichaelAtOz](http://forum.openscad.org/textCylinder-dodgy-version-for-text-around-a-cylinder-td9262.html#a9265) |
+| Degenerate polygon [Ronaldo](http://forum.openscad.org/Polyhedron-degenerated-triangles-are-allowed-but-quads-td19917.html) |
 | [excel-control](http://forum.openscad.org/Parameterlist-Excel-export-to-OpenSCAD-tp15363p15367.html) |
 | Flatten surface: [nophead's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19763.html), [runsun's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19782.html), [osresearch papercraft](https://github.com/osresearch/papercraft), [Parkinbot's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19807.html) |
 | [gear](http://lcamtuf.coredump.cx/gcnc/ch6/#6.1), [Parkinbot](http://www.thingiverse.com/thing:636119) |
@@ -44,7 +44,7 @@
 | [variable](http://forum.openscad.org/Ignoring-unknown-variable-issue-tp13156p13321.html)([2](http://forum.openscad.org/Special-Variables-tp14477p14512.html)) |
 | [volume/center](http://forum.openscad.org/Volume-and-Center-of-mass-td15421.html) |
 | [Warning, User](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html) |
-| Wavy solid: [Parkinbot's] (http://forum.openscad.org/Sweeping-a-cone-through-a-range-of-angles-about-the-origin-tp19662p19676.html) |
+| Wavy solid: [Parkinbot's](http://forum.openscad.org/Sweeping-a-cone-through-a-range-of-angles-about-the-origin-tp19662p19676.html) |
 
 | $ **tools** |
 | ----------------------------------------|
@@ -54,7 +54,7 @@
 |[Smithsonia X3D explorer](http://3d.si.edu/explorer?modelid=1341)|
 |[SVGNesting](http://svgnest.com/)|
 |[SketchPad](http://studio.sketchpad.cc/sp/account/sign-in?cont=http%3a%2f%2fstudio.sketchpad.cc%2f)|
-|[GoJS polygon drawing] (http://gojs.net/latest/extensions/PolygonDrawing.html?gclid=CNmkgNW0ldECFY22wAodAH8EZQ)|
+|[GoJS polygon drawing](http://gojs.net/latest/extensions/PolygonDrawing.html?gclid=CNmkgNW0ldECFY22wAodAH8EZQ)|
 |[osresearch papercraft](https://github.com/osresearch/papercraft) |
 |[Neon22's Inkscape to OpenSCAD converter](http://www.thingiverse.com/thing:1065500)|
 
@@ -81,7 +81,7 @@
 |---------------------|
 |[shapeoko.com](http://www.shapeoko.com/wiki/index.php/OpenSCAD#Other_Support_Tools)|
 |[Fablab](http://fablabamersfoort.nl/book/openscad)|
-|[William Adams] (http://www.shapeoko.com/wiki/index.php/Programmatic_G-Code_Generators)|
+|[William Adams](http://www.shapeoko.com/wiki/index.php/Programmatic_G-Code_Generators)|
 
 |$ **My libs** |
 |---------------------|
