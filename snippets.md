@@ -46,3 +46,27 @@ module Line( pts, r=0.05, closed=false, color=undef, transp=1, fn=4 )
   } 
 }        
 ```
+
+---------------------------------
+| Type | API | Source | Remark |
+|------|-----|--------|--------|
+|Function| **rotate**( *angle* ) | [nophead](http://forum.openscad.org/Rounding-Errors-tp21821p21834.html) | Fix an issue of the built-in rotate()|
+
+```javascript
+module rotate(angle)            // built-in rotate is inaccurate for 90 degrees, etc
+{
+ a = len(angle) == undef ? [0, 0, angle] : angle;
+ cx = cos(a[0]);
+ cy = cos(a[1]);
+ cz = cos(a[2]);
+ sx = sin(a[0]);
+ sy = sin(a[1]);
+ sz = sin(a[2]);
+ multmatrix([
+  [ cy * cz, cz * sx * sy - cx * sz, cx * cz * sy + sx * sz, 0],
+  [ cy * sz, cx * cz + sx * sy * sz,-cz * sx + cx * sy * sz, 0],
+  [-sy,      cy * sx,                cx * cy,                0],
+  [ 0,       0,                      0,                      1]
+ ]) children();
+}      
+```
