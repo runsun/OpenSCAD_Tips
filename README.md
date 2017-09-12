@@ -46,6 +46,15 @@
 | [Warning, User](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html) |
 | Wavy solid: [Parkinbot's](http://forum.openscad.org/Sweeping-a-cone-through-a-range-of-angles-about-the-origin-tp19662p19676.html) |
 
+|$ **My libs** |
+|---------------------|
+| [scadx](https://bitbucket.org/runsun/scadx) |
+| [doctest](https://github.com/runsun/openscad_doctest) |
+| [faces](http://forum.openscad.org/A-faces-function-for-simple-polyhedrons-td12809.html)([git](https://github.com/runsun/faces.scad)) |
+| [offline doc](http://forum.openscad.org/Use-openscad-offliner-for-offline-documentation-td13096.html)([git](https://github.com/runsun/openscad_offliner)) |
+| [runscad.py](http://forum.openscad.org/Animating-gif-with-3D-rotation-tp14011p14029.html)([2](http://forum.openscad.org/Symmetrical-Rotation-tp14062p14075.html), [git](https://gist.github.com/runsun/995250a8002386ab9abc)) |
+| [synwrite](http://forum.openscad.org/Happy-New-Year-OpenSCAD-syntax-lexer-for-SynWrite-td15402.html)([2](http://www.thingiverse.com/thing:1237864)) |
+
 | $ **tools** |
 | ----------------------------------------|
 |[Daid's Polygon maker](http://daid.eu/~daid/3d/) |
@@ -63,6 +72,7 @@
 | [Roya Sutton's odml](http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html) [pdf](https://cdn.thingiverse.com/assets/3c/16/d2/00/ea/refman.pdf)|
 | [Jonathan Law's JointSCAD](https://github.com/HopefulLlama/JointSCAD) |
 | [Justin Lin's dotSCAD](https://github.com/JustinSDK/dotSCAD) |
+| [Revar Desmera's Belfry OpenScad Library](https://github.com/revarbat/BOSL) |
 
 | $ **OpenSCAD variations** | 
 | ----------------------------------------|
@@ -82,14 +92,6 @@
 |[shapeoko.com](http://www.shapeoko.com/wiki/index.php/OpenSCAD#Other_Support_Tools)|
 |[Fablab](http://fablabamersfoort.nl/book/openscad)|
 |[William Adams](http://www.shapeoko.com/wiki/index.php/Programmatic_G-Code_Generators)|
-
-|$ **My libs** |
-|---------------------|
-| [doctest](https://github.com/runsun/openscad_doctest) |
-| [faces](http://forum.openscad.org/A-faces-function-for-simple-polyhedrons-td12809.html)([git](https://github.com/runsun/faces.scad)) |
-| [offline doc](http://forum.openscad.org/Use-openscad-offliner-for-offline-documentation-td13096.html)([git](https://github.com/runsun/openscad_offliner)) |
-| [runscad.py](http://forum.openscad.org/Animating-gif-with-3D-rotation-tp14011p14029.html)([2](http://forum.openscad.org/Symmetrical-Rotation-tp14062p14075.html), [git](https://gist.github.com/runsun/995250a8002386ab9abc)) |
-| [synwrite](http://forum.openscad.org/Happy-New-Year-OpenSCAD-syntax-lexer-for-SynWrite-td15402.html)([2](http://www.thingiverse.com/thing:1237864)) |
 
 |$ **Inspiration** |
 |---------------------|
