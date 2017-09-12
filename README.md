@@ -98,5 +98,7 @@
 |$ **References** |
 |---------------------|
 | Math: [R.Penner's Easing func](http://robertpenner.com/easing/) |
+| Geometry: [2d collision detect in js](https://github.com/bmoren/p5.collide2D/blob/master/p5.collide2d.js) |
+
 
 [$](http://forum.openscad.org/mailing_list/MailingListOptions.jtp?forum=1) *Runsun Pan, PhD* 
