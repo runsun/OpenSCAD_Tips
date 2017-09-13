@@ -34,6 +34,7 @@
 | Round Anything by [irev dev](https://www.thingiverse.com/thing:2419664) |
 | [rounded polygon](http://forum.openscad.org/Script-to-replicate-hull-and-minkoswki-for-CSG-export-import-into-FreeCAD-td16537.html) |
 | Search(): [details](http://forum.openscad.org/Digging-into-search-td12421.html) |
+| Shelling: [jweoblog](http://jweoblog.com/?p=644) |
 | Spring: [Parkinbot](http://forum.openscad.org/how-to-make-the-groove-more-width-tp20154p20158.html) |
 | [sweep](http://forum.openscad.org/Two-annoyances-td12935i20.html#a13110)([2](http://forum.openscad.org/Vertex-arrays-tp15876p15969.html),[3](http://forum.openscad.org/file/n18324/sweep2.scad)), [Benjemin Easing Func](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html)|
 | [tail Recursion](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)([2](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16962.html),[3](http://forum.openscad.org/Tail-recursion-td17040.html),[4](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)) |
