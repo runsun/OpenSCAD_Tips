@@ -17,6 +17,7 @@
 | [Bezier](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19309.html) |
 | Bounding box (1) [doc](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Commented_Example_Projects) handles only one obj; (2) [Ronado](http://forum.openscad.org/Round-anything-Retrospective-rounding-filleting-module-tp21794p21820.html) handles one or more | 
 | [Chinese font](http://forum.openscad.org/How-to-write-a-texture-to-a-face-Solid-in-a-geometric-model-tp16718p16753.html) |
+| color/HTML color: [MichaelAtOz](https://github.com/openscad/openscad/files/1250754/rgb.txt) |
 | [Curved Image](http://forum.openscad.org/Images-on-curved-cylindrical-surface-td17823.html) |
 | Curve Text: [JustinSDK](http://openhome.cc/eGossip/OpenSCAD/ModifierCharacters.html), [MichaelAtOz](http://forum.openscad.org/textCylinder-dodgy-version-for-text-around-a-cylinder-td9262.html#a9265) |
 | Degenerate polygon [Ronaldo](http://forum.openscad.org/Polyhedron-degenerated-triangles-are-allowed-but-quads-td19917.html) |
@@ -27,7 +28,7 @@
 | [isosphere](http://forum.openscad.org/New-Algorithm-for-Spheres-tp13306p17062.html)([2](http://blog.andreaskahler.com/2009/06/creating-icosphere-mesh-in-code.html)) |
 | [lerp](http://forum.openscad.org/Irregular-mesh-generated-tp13765p13779.html ) |
 | [Lazy Union by Parkinbot](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20126.html), [Ronaldo's](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20140.html) |
-| [matrix](http://www.thingiverse.com/thing:10249/#files)([2](http://forum.openscad.org/restrict-hull-function-to-one-or-two-dimensions-tp16696p16722.html),[3](https://github.com/lhartmann/openscad_m4lib/blob/master/m4.scad)) |  
+| [matrix](http://www.thingiverse.com/thing:10249/#files)([2](http://forum.openscad.org/restrict-hull-function-to-one-or-two-dimensions-tp16696p16722.html),[3](https://github.com/lhartmann/openscad_m4lib/blob/master/m4.scad)); [invert](https://github.com/openscad/openscad/issues/1040#issuecomment-233208606) |  
 | Parser: [Parkinbot's stl parser](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19816.html) |
 | [precision](http://forum.openscad.org/Inconsistent-conversion-of-floating-number-to-string-at-7th-significant-digit-tp14350.html)([2](http://forum.openscad.org/Simple-addition-of-numbers-introduces-error-td14408.html)) |
 | [RGB](http://forum.openscad.org/An-HSV-HSB-to-RGB-Color-function-in-OpenSCAD-td9835.html) |
