@@ -92,6 +92,9 @@
 |------------------|
 |[blockscad](https://blockscad.einsteinsworkshop.com/)|
 |[freeCAD](https://www.freecadweb.org/)|
+|[snapSCAD](https://github.com/martymcguire/snapscad)|
+|[3DDoctors.net](http://3ddoctors.net/)|
+
 
 |$ **Other portals** |
 |---------------------|
