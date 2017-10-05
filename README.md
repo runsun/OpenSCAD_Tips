@@ -91,6 +91,7 @@
 |$ **Other cads**| 
 |------------------|
 |[blockscad](https://blockscad.einsteinsworkshop.com/)|
+|[freeCAD](https://www.freecadweb.org/)|
 
 |$ **Other portals** |
 |---------------------|
