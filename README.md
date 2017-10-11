@@ -31,7 +31,7 @@
 | [Lazy Union by Parkinbot](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20126.html), [Ronaldo's](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20140.html) |
 | [makefile](http://forum.openscad.org/Makefile-for-building-complex-models-from-a-single-file-td22296.html ) |
 | [matrix](http://www.thingiverse.com/thing:10249/#files)([2](http://forum.openscad.org/restrict-hull-function-to-one-or-two-dimensions-tp16696p16722.html),[3](https://github.com/lhartmann/openscad_m4lib/blob/master/m4.scad)); [invert](https://github.com/openscad/openscad/issues/1040#issuecomment-233208606) |  
-| Parser: [Parkinbot's stl parser](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19816.html) |
+| Parser: [Parkinbot's stl parser](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19816.html), [APruss' Function parser](https://www.thingiverse.com/thing:2295309) |
 | [precision](http://forum.openscad.org/Inconsistent-conversion-of-floating-number-to-string-at-7th-significant-digit-tp14350.html)([2](http://forum.openscad.org/Simple-addition-of-numbers-introduces-error-td14408.html)) |
 | [RGB](http://forum.openscad.org/An-HSV-HSB-to-RGB-Color-function-in-OpenSCAD-td9835.html) |
 | Round Anything by [irev dev](https://www.thingiverse.com/thing:2419664) |
@@ -41,7 +41,7 @@
 | Spring: [Parkinbot](http://forum.openscad.org/how-to-make-the-groove-more-width-tp20154p20158.html) |
 | [sweep](http://forum.openscad.org/Two-annoyances-td12935i20.html#a13110)([2](http://forum.openscad.org/Vertex-arrays-tp15876p15969.html),[3](http://forum.openscad.org/file/n18324/sweep2.scad)), [Benjemin Easing Func](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html)|
 | [tail Recursion](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)([2](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16962.html),[3](http://forum.openscad.org/Tail-recursion-td17040.html),[4](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)) |
-| [text](http://forum.openscad.org/Wrapping-text-around-a-complex-geometry-tc18145.html) | 
+| [text](http://forum.openscad.org/Wrapping-text-around-a-complex-geometry-tc18145.html), [Carl Davidson's str lib](https://www.thingiverse.com/thing:526023) | 
 | testing: [tests in OpenSCAD](http://forum.openscad.org/Clarifying-behaviors-tp18492p18507.html)([2](http://forum.openscad.org/tests-in-OpenSCAD-td8978.html)), [RoyaSutton](http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html)([pdf](https://cdn.thingiverse.com/assets/3c/16/d2/00/ea/refman.pdf)), [runsun's doctest](https://github.com/runsun/openscad_doctest)|
 | [triangulation](http://forum.openscad.org/Simple-polygon-triangulation-td16755.html) |
 | Tube: [Ronaldo's](http://forum.openscad.org/file/n19680/Tube_example.scad), [Runsun's](http://forum.openscad.org/Bent-rod-td14003.html), [Johan's](http://forum.openscad.org/method-to-sweep-or-skin-a-hollow-object-without-difference-function-tp19677p19688.html) |
