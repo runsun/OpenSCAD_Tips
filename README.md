@@ -24,6 +24,7 @@
 | Dimensioning: Don Smiley's dimlines: [new ver](http://forum.openscad.org/Dimension-Parameter-labeling-for-part-diagrams-tp15172p15185.html), [doc](http://www.cannymachines.com/entries/9/openscad_dimensioned_drawings) |
 | [excel-control](http://forum.openscad.org/Parameterlist-Excel-export-to-OpenSCAD-tp15363p15367.html) |
 | Flatten surface: [nophead's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19763.html), [runsun's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19782.html), [osresearch papercraft](https://github.com/osresearch/papercraft), [Parkinbot's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19807.html) |
+| [$fa,$fs,$fn](http://forum.openscad.org/better-than-fn-get-fs-working-a-tutorial-td1271.html), [1](http://forum.openscad.org/fn-fa-and-fs-tp17932p17936.html) |
 | [gear](http://lcamtuf.coredump.cx/gcnc/ch6/#6.1), [Parkinbot](http://www.thingiverse.com/thing:636119) |
 | hash: [1](http://forum.openscad.org/parameterized-models-td8303.html#a8306), [2](http://forum.openscad.org/Can-I-get-some-code-review-up-in-here-tp12341p12355.html), [Search-based hash](http://www.thingiverse.com/groups/openscad/topic:5610#comment-1093645) |
 | [isosphere](http://forum.openscad.org/New-Algorithm-for-Spheres-tp13306p17062.html)([2](http://blog.andreaskahler.com/2009/06/creating-icosphere-mesh-in-code.html)) |
@@ -38,6 +39,7 @@
 | [rounded polygon](http://forum.openscad.org/Script-to-replicate-hull-and-minkoswki-for-CSG-export-import-into-FreeCAD-td16537.html) |
 | Search(): [details](http://forum.openscad.org/Digging-into-search-td12421.html) |
 | Shelling: [jweoblog](http://jweoblog.com/?p=644) |
+| Sphere [1](http://forum.openscad.org/New-Algorithm-for-Spheres-td13306.html#a17087) |
 | Spring: [Parkinbot](http://forum.openscad.org/how-to-make-the-groove-more-width-tp20154p20158.html) |
 | [sweep](https://github.com/openscad/list-comprehension-demos/blob/master/sweep.scad) ([1](http://forum.openscad.org/Two-annoyances-td12935i20.html#a13110),[2](http://forum.openscad.org/Vertex-arrays-tp15876p15969.html),[3](http://forum.openscad.org/file/n18324/sweep2.scad)), [Benjemin Easing Func](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html)|
 | [tail Recursion](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)([2](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16962.html),[3](http://forum.openscad.org/Tail-recursion-td17040.html),[4](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)) |
