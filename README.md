@@ -33,7 +33,7 @@
 | [Lazy Union by Parkinbot](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20126.html), [Ronaldo's](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20140.html) |
 | [makefile](http://forum.openscad.org/Makefile-for-building-complex-models-from-a-single-file-td22296.html ) |
 | [matrix](http://www.thingiverse.com/thing:10249/#files)([2](http://forum.openscad.org/restrict-hull-function-to-one-or-two-dimensions-tp16696p16722.html),[3](https://github.com/lhartmann/openscad_m4lib/blob/master/m4.scad)); [invert](https://github.com/openscad/openscad/issues/1040#issuecomment-233208606) |  
-| Parser: [Parkinbot's stl parser](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19816.html), [APruss' Function parser](https://www.thingiverse.com/thing:2295309) |
+| Parser: [runsun's scadx_match](https://bitbucket.org/runsun/scadx/src/f144a5d77e534ae81d712e41bd5e89d8a8629ab4/scadx_match.scad?at=master&fileviewer=file-view-default), [Parkinbot's stl parser](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19816.html), [APruss' Function parser](https://www.thingiverse.com/thing:2295309), [Carl Davidson's string.scad](https://github.com/davidson16807/relativity.scad/blob/master/strings.scad) |
 | [precision](http://forum.openscad.org/Inconsistent-conversion-of-floating-number-to-string-at-7th-significant-digit-tp14350.html)([2](http://forum.openscad.org/Simple-addition-of-numbers-introduces-error-td14408.html)) |
 | [RGB](http://forum.openscad.org/An-HSV-HSB-to-RGB-Color-function-in-OpenSCAD-td9835.html) |
 | Round Anything by [irev dev](https://www.thingiverse.com/thing:2419664) |
