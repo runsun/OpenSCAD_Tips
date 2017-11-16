@@ -14,7 +14,7 @@
 | [animation](http://forum.openscad.org/About-animation-just-for-the-record-just-for-Windows-users-td16733.html) ( [gif](http://forum.openscad.org/Animating-gif-with-3D-rotation-tp14011.html), [prodVid](http://forum.openscad.org/Product-Video-produced-with-OpenSCAD-td15783.html), [animlib](http://forum.openscad.org/Animation-Motion-Library-td17196.html), [imgsize](http://forum.openscad.org/Can-I-force-Animation-to-use-quot-Render-quot-instead-of-quot-Preview-quot-td14828.html#a14848), [JordanBrown](http://forum.openscad.org/matrix-interpolation-td22284.html)) |
 | [area](http://forum.openscad.org/Easy-way-to-get-the-area-of-a-polygon-tp17045p17055.html) |
 | Associated Array: See hash below |
-| [Bezier](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19309.html) |
+| [Bezier](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19309.html), Eric Buijs' [PolyBeziers](https://plus.google.com/104802930025458639218/posts/VZrXMxLd8Mt) |
 | Bounding box (1) [doc](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Commented_Example_Projects) handles only one obj; (2) [Ronado](http://forum.openscad.org/Round-anything-Retrospective-rounding-filleting-module-tp21794p21820.html) handles one or more | 
 | [Chinese font](http://forum.openscad.org/How-to-write-a-texture-to-a-face-Solid-in-a-geometric-model-tp16718p16753.html) |
 | color/HTML color: [MichaelAtOz](https://github.com/openscad/openscad/files/1250754/rgb.txt) |
