@@ -75,6 +75,8 @@
 |[GoJS polygon drawing](http://gojs.net/latest/extensions/PolygonDrawing.html?gclid=CNmkgNW0ldECFY22wAodAH8EZQ)|
 |[osresearch papercraft](https://github.com/osresearch/papercraft) |
 |[Neon22's Inkscape to OpenSCAD converter](http://www.thingiverse.com/thing:1065500)|
+|[Desmos math calculator/plotter](https://www.desmos.com/calculator)|
+|[Define/draw Bezier curve w/ desmos](https://www.desmos.com/calculator/cahqdxeshd)|
 
 | $ **Libs** |
 |------------------|
@@ -112,7 +114,8 @@
 
 |$ **Inspiration** |
 |---------------------|
-| [Santos's js 2d/3d transform lib](https://github.com/ruisoftware/jquery-rsSlideIt)|
+|[Santos's js 2d/3d transform lib](https://github.com/ruisoftware/jquery-rsSlideIt)|
+|[Bending](https://en.wikipedia.org/wiki/Bending)|
 
 |$ **References** |
 |---------------------|
