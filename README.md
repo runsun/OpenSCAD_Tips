@@ -84,6 +84,7 @@
 
 | $ **Libs** |
 |------------------|
+|[Brendan M. Sleight's lasercut](https://github.com/bmsleight/lasercut)|
 |[Hans Loeblich's functional](https://github.com/thehans/FunctionalOpenSCAD/blob/master/functional.scad) ([discussion](http://forum.openscad.org/Functional-OpenSCAD-working-with-vertex-data-td21080.html)) |
 |[Carl Davidson's Relativity](https://github.com/davidson16807/relativity.scad/wiki) |
 
