@@ -15,7 +15,7 @@
 | [area](http://forum.openscad.org/Easy-way-to-get-the-area-of-a-polygon-tp17045p17055.html) |
 | Associated Array: See hash below |
 | [Bezier](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19309.html), Eric Buijs' [PolyBeziers](https://plus.google.com/104802930025458639218/posts/VZrXMxLd8Mt) |
-| Bounding box (1) [doc](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Commented_Example_Projects) handles only one obj; (2) [Ronado](http://forum.openscad.org/Round-anything-Retrospective-rounding-filleting-module-tp21794p21820.html) handles one or more | 
+| Bounding box (1) [doc](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Commented_Example_Projects) handles only one obj; (2) [Ronaldo](http://forum.openscad.org/Round-anything-Retrospective-rounding-filleting-module-tp21794p21820.html) handles one or more; (3) [Ronaldo's 2d](http://forum.openscad.org/Getting-2D-bounding-box-dimensions-td23256.html) | 
 | [Chinese font](http://forum.openscad.org/How-to-write-a-texture-to-a-face-Solid-in-a-geometric-model-tp16718p16753.html) |
 | color/HTML color: [MichaelAtOz](https://github.com/openscad/openscad/files/1250754/rgb.txt) |
 | [Curved Image](http://forum.openscad.org/Images-on-curved-cylindrical-surface-td17823.html) |
@@ -66,7 +66,7 @@
 | [faces](http://forum.openscad.org/A-faces-function-for-simple-polyhedrons-td12809.html)([git](https://github.com/runsun/faces.scad)) |
 | [offline doc](http://forum.openscad.org/Use-openscad-offliner-for-offline-documentation-td13096.html)([git](https://github.com/runsun/openscad_offliner)) |
 | [runscad.py](http://forum.openscad.org/Animating-gif-with-3D-rotation-tp14011p14029.html)([2](http://forum.openscad.org/Symmetrical-Rotation-tp14062p14075.html), [git](https://gist.github.com/runsun/995250a8002386ab9abc)) |
-| [synwrite](http://forum.openscad.org/Happy-New-Year-OpenSCAD-syntax-lexer-for-SynWrite-td15402.html)([2](http://www.thingiverse.com/thing:1237864)) |
+| [synwrite](http://forum.openscad.org/Happy-New-Year-OpenSCAD-syntax-lexer-for-SynWrite-td15402.html)([2](http://www.thingiverse.com/thing:1237864)), [CudaText](http://forum.openscad.org/Syntax-highlighting-tp23247p23258.html) |
 
 | $ **tools** |
 | ----------------------------------------|
