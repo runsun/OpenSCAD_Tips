@@ -23,6 +23,7 @@
 | Degenerate polygon [Ronaldo](http://forum.openscad.org/Polyhedron-degenerated-triangles-are-allowed-but-quads-td19917.html) |
 | Data Structure [NateTG's 2-3 tree](http://forum.openscad.org/Programming-in-Functional-OpenSCAD-td23039.html), [Good 2-3 ref](http://cs.wellesley.edu/~cs230/fall02/2-3-trees.pdf)|
 | Dimensioning: Don Smiley's dimlines: [new ver](http://forum.openscad.org/Dimension-Parameter-labeling-for-part-diagrams-tp15172p15185.html), [doc](http://www.cannymachines.com/entries/9/openscad_dimensioned_drawings) |
+| Editor ([Quick ref on browser by Len Trigg](http://forum.openscad.org/Poor-mans-quick-help-lookup-for-openscad-built-in-modules-td23242.html)) |
 | [excel-control](http://forum.openscad.org/Parameterlist-Excel-export-to-OpenSCAD-tp15363p15367.html) |
 | Flatten surface: [nophead's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19763.html), [runsun's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19782.html), [osresearch papercraft](https://github.com/osresearch/papercraft), [Parkinbot's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19807.html) |
 | [$fa,$fs,$fn](http://forum.openscad.org/better-than-fn-get-fs-working-a-tutorial-td1271.html), [1](http://forum.openscad.org/fn-fa-and-fs-tp17932p17936.html),[Ian](https://forum.makehackvoid.com/t/openscad-circle-calculations/721) |
