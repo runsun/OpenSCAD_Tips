@@ -18,6 +18,7 @@
 | Bounding box (1) [doc](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Commented_Example_Projects) handles only one obj; (2) [Ronaldo](http://forum.openscad.org/Round-anything-Retrospective-rounding-filleting-module-tp21794p21820.html) handles one or more; (3) [Ronaldo's 2d](http://forum.openscad.org/Getting-2D-bounding-box-dimensions-td23256.html) | 
 | [Chinese font](http://forum.openscad.org/How-to-write-a-texture-to-a-face-Solid-in-a-geometric-model-tp16718p16753.html) |
 | color/HTML color: [MichaelAtOz](https://github.com/openscad/openscad/files/1250754/rgb.txt) |
+| Commandline [Enable Exp Features](http://forum.openscad.org/Enable-experimental-features-concat-text-in-command-line-td9287.html#a9290), [Set parameters and rotation](http://forum.openscad.org/Animating-gif-with-3D-rotation-td14011.html#a14029) |
 | [Curved Image](http://forum.openscad.org/Images-on-curved-cylindrical-surface-td17823.html) |
 | Curve Text: [JustinSDK](http://openhome.cc/eGossip/OpenSCAD/ModifierCharacters.html), [MichaelAtOz](http://forum.openscad.org/textCylinder-dodgy-version-for-text-around-a-cylinder-td9262.html#a9265) |
 | Degenerate polygon [Ronaldo](http://forum.openscad.org/Polyhedron-degenerated-triangles-are-allowed-but-quads-td19917.html) |
