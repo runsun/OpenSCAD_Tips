@@ -132,6 +132,7 @@
 
 |$ **References** |
 |---------------------|
+| Clipping [Martinez-Rueda](https://github.com/w8r/martinez), [src](https://www.sciencedirect.com/science/article/pii/S0965997813000379) |
 | Math: [R.Penner's Easing func](http://robertpenner.com/easing/) |
 | Geometry: [2d collision detect in js](https://github.com/bmoren/p5.collide2D/blob/master/p5.collide2d.js) |
 
