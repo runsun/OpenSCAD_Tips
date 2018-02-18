@@ -14,7 +14,7 @@
 | [animation](http://forum.openscad.org/About-animation-just-for-the-record-just-for-Windows-users-td16733.html) ( [gif](http://forum.openscad.org/Animating-gif-with-3D-rotation-tp14011.html), [prodVid](http://forum.openscad.org/Product-Video-produced-with-OpenSCAD-td15783.html), [animlib](http://forum.openscad.org/Animation-Motion-Library-td17196.html), [imgsize](http://forum.openscad.org/Can-I-force-Animation-to-use-quot-Render-quot-instead-of-quot-Preview-quot-td14828.html#a14848), [JordanBrown](http://forum.openscad.org/matrix-interpolation-td22284.html)) |
 | [area](http://forum.openscad.org/Easy-way-to-get-the-area-of-a-polygon-tp17045p17055.html) |
 | Associated Array: See hash below |
-| Bazier [Ronaldo's](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19309.html), [nophead's subdivision3](http://forum.openscad.org/OpenSCAD-programming-question-recursion-functions-and-modules-tp23197p23217.html), Eric Buijs' [PolyBeziers](https://plus.google.com/104802930025458639218/posts/VZrXMxLd8Mt), [NateTG's n-Bezier](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23329.html)([his Correction](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23335.html)) |
+| Bazier [Ronaldo's](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19309.html), [nophead's subdivision3](http://forum.openscad.org/OpenSCAD-programming-question-recursion-functions-and-modules-tp23197p23217.html), Eric Buijs' [PolyBeziers](https://plus.google.com/104802930025458639218/posts/VZrXMxLd8Mt), [NateTG's n-Bezier](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23329.html)([his Correction](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23335.html)), [Revar Desmera's BOSL](https://github.com/revarbat/BOSL/wiki/beziers.scad) |
 | Bounding box (1) [doc](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Commented_Example_Projects) handles only one obj; (2) [Ronaldo](http://forum.openscad.org/Round-anything-Retrospective-rounding-filleting-module-tp21794p21820.html) handles one or more; (3) [Ronaldo's 2d](http://forum.openscad.org/Getting-2D-bounding-box-dimensions-td23256.html) | 
 | [Chinese font](http://forum.openscad.org/How-to-write-a-texture-to-a-face-Solid-in-a-geometric-model-tp16718p16753.html) |
 | color/HTML color: [MichaelAtOz](https://github.com/openscad/openscad/files/1250754/rgb.txt) |
@@ -31,6 +31,7 @@
 | [gear](http://lcamtuf.coredump.cx/gcnc/ch6/#6.1), [Parkinbot](http://www.thingiverse.com/thing:636119) |
 | Geodisc [William Adams](https://www.thingiverse.com/thing:10725),[2](https://www.thingiverse.com/thing:10540), [Yona Appletree](https://gist.github.com/Yona-Appletree/a03bc32a5c5ca6886e38)|
 | hash: [1](http://forum.openscad.org/parameterized-models-td8303.html#a8306), [2](http://forum.openscad.org/Can-I-get-some-code-review-up-in-here-tp12341p12355.html), [Search-based hash](http://www.thingiverse.com/groups/openscad/topic:5610#comment-1093645) |
+| Hermite interpolation [Ronaldo's](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23352.html)|
 | [isosphere](http://forum.openscad.org/New-Algorithm-for-Spheres-tp13306p17062.html)([2](http://blog.andreaskahler.com/2009/06/creating-icosphere-mesh-in-code.html)) |
 | [lerp](http://forum.openscad.org/Irregular-mesh-generated-tp13765p13779.html ) |
 | [Lazy Union by Parkinbot](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20126.html), [Ronaldo's](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20140.html) |
@@ -93,6 +94,7 @@
 
 | $ **Lib systems** |
 |------------------|
+| [Revar Desmera's BOSL](https://github.com/revarbat/BOSL) |
 | [Roya Sutton's odml](http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html) [pdf](https://cdn.thingiverse.com/assets/3c/16/d2/00/ea/refman.pdf)|
 | [Jonathan Law's JointSCAD](https://github.com/HopefulLlama/JointSCAD) |
 | [Justin Lin's dotSCAD](https://github.com/JustinSDK/dotSCAD) |
@@ -114,6 +116,7 @@
 |[snapSCAD](https://github.com/martymcguire/snapscad)|
 |[3DDoctors.net](http://3ddoctors.net/)|
 |[libfive](https://libfive.com/studio/)|
+|[Curv](https://github.com/doug-moen/curv)|
 
 |$ **Other Drawing programs**| 
 |------------------|
