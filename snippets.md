@@ -1,5 +1,6 @@
 ## OpenSCAD snippets for copy and paste ##
 
+#### Menu
 | [**hash**( *h,k* )](#hash) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate) | [**sortArrs**( *arrs,by=0* )](#sortarrs) |
 |--|--|--|--|
 
@@ -21,6 +22,8 @@ echo( hash( ["a",1,"b",2], "b" ) );  // 2
 echo( hash( ["a",1,"b",2], "c" ) );  // undef
 echo( hash( ["a",1,"b",2], "c", "missing" ) ); // "missing"
 ```
+
+   ==> [Menu](#menu) 
 
 ---
 ### Line
@@ -51,6 +54,7 @@ module Line( pts, r=0.05, closed=false, color=undef, transp=1, fn=4 )
   } 
 }        
 ```
+   ==> [Menu](#menu) 
 
 
 ---
@@ -78,6 +82,7 @@ module rotate(angle)            // built-in rotate is inaccurate for 90 degrees,
  ]) children();
 }      
 ```
+   ==> [Menu](#menu) 
 
 
 --- 
@@ -131,3 +136,4 @@ sortArrs(arrs,by=2):
 , [-0.1, 2.8, 2.4]] 
 
 ```
+   ==> [Menu](#menu) 
