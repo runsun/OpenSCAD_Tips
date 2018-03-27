@@ -1,7 +1,7 @@
 # OpenSCAD Tips
 
 #### Menu
-| [**Official**](#Official_help) | [**tips**](#tips) | [**My_libs**](#my_libs) | [**Tools**](#Tools) | [**Libs**](#Libs) |  [**lib_systems**](#lib_systems) |  [**OpenSCAD_variations**](#openscad_variations) |  [**other_cads**](#other_cads) |  [**Other_Drawing_programs**](#other_drawing_programs) |  [**Inspiration**](#inspiration) |  [**References**](#references) |
+| [**Official**](#Official_help) | [**tips**](#tips) | [**My_libs**](#my_libs) | [**Tools**](#Tools) | [**Libs**](#Libs) |  [**lib_systems**](#lib_systems) | [**OpenSCAD_variations**](#openscad_variations) | [**other_cads**](#other_cads) |  [**Other_Drawing_programs**](#other_drawing_programs) | [**Inspiration**](#inspiration) | [**References**](#references) |
 
 ### Official_help 
 * [OpenSCAD language ref](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language) 
@@ -10,6 +10,7 @@
 * [Nightly snapshots](http://files.openscad.org/snapshots/) 
 * [OpenSCAD forum](http://forum.openscad.org)
 * [OpenSCAD freenode IRC](http://webchat.freenode.net/?channels=#openscad)
+
 ==> [Menu](#menu) 
 
 ### tips 
@@ -64,6 +65,7 @@
 * [volume/center](http://forum.openscad.org/Volume-and-Center-of-mass-td15421.html) 
 * [Warning, User](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html) 
 * Wavy solid: [Parkinbot's](http://forum.openscad.org/Sweeping-a-cone-through-a-range-of-angles-about-the-origin-tp19662p19676.html) 
+
 ==> [Menu](#menu)
 
 ### My_libs
@@ -72,7 +74,8 @@
 * [faces](http://forum.openscad.org/A-faces-function-for-simple-polyhedrons-td12809.html)([git](https://github.com/runsun/faces.scad)) 
 * [offline doc](http://forum.openscad.org/Use-openscad-offliner-for-offline-documentation-td13096.html)([git](https://github.com/runsun/openscad_offliner)) 
 * [runscad.py](http://forum.openscad.org/Animating-gif-with-3D-rotation-tp14011p14029.html)([2](http://forum.openscad.org/Symmetrical-Rotation-tp14062p14075.html), [git](https://gist.github.com/runsun/995250a8002386ab9abc)) 
-* [synwrite](http://forum.openscad.org/Happy-New-Year-OpenSCAD-syntax-lexer-for-SynWrite-td15402.html)([2](http://www.thingiverse.com/thing:1237864)), [CudaText](http://forum.openscad.org/Syntax-highlighting-tp23247p23258.html) 
+* [synwrite](http://forum.openscad.org/Happy-New-Year-OpenSCAD-syntax-lexer-for-SynWrite-td15402.html)([2](http://www.thingiverse.com/thing:1237864)), [CudaText](http://forum.openscad.org/Syntax-highlighting-tp23247p23258.html)
+
 ==> [Menu](#menu)
 
 ### Tools
@@ -87,12 +90,14 @@
 * [Neon22's Inkscape to OpenSCAD converter](http://www.thingiverse.com/thing:1065500)
 * [Desmos math calculator/plotter](https://www.desmos.com/calculator)
 * [Define/draw Bezier curve w/ desmos](https://www.desmos.com/calculator/cahqdxeshd)
+
 ==> [Menu](#menu)
 
 ### Libs
 * [Brendan M. Sleight's lasercut](https://github.com/bmsleight/lasercut)
 * [Hans Loeblich's functional](https://github.com/thehans/FunctionalOpenSCAD/blob/master/functional.scad) ([discussion](http://forum.openscad.org/Functional-OpenSCAD-working-with-vertex-data-td21080.html)) 
 * [Carl Davidson's Relativity](https://github.com/davidson16807/relativity.scad/wiki) 
+
 ==> [Menu](#menu)
 
 ### Lib_systems
@@ -100,7 +105,8 @@
 * [Roya Sutton's odml](http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html) [pdf](https://cdn.thingiverse.com/assets/3c/16/d2/00/ea/refman.pdf)
 * [Jonathan Law's JointSCAD](https://github.com/HopefulLlama/JointSCAD) 
 * [Justin Lin's dotSCAD](https://github.com/JustinSDK/dotSCAD) 
-* [Revar Desmera's Belfry OpenScad Library](https://github.com/revarbat/BOSL) 
+* [Revar Desmera's Belfry OpenScad Library](https://github.com/revarbat/BOSL)
+
 ==> [Menu](#menu)
 
 ### OpenSCAD_variations 
@@ -110,6 +116,7 @@
 * [OpenSCAD on AWS](http://forum.openscad.org/Running-OpenSCAD-on-an-Amazon-AWS-EC2-server-td9544.html)([pdf](http://files.openscad.org/public/OpenSCAD%20on%20EC2.pdf)) 
 * [OpenPyScad](https://github.com/taxpon/openpyscad)
 * [SolidPython](https://github.com/SolidCode/SolidPython) 
+
 ==> [Menu](#menu)
 
 ### Other_cads
@@ -121,6 +128,7 @@
 * [Curv](https://github.com/doug-moen/curv)
 * [mattkeeter's Antimony](http://www.mattkeeter.com/projects/antimony/3/) (also look at [/1](http://www.mattkeeter.com/projects/antimony/1), [/2](http://www.mattkeeter.com/projects/antimony/2)) 
 * [Wings](http://www.wings3d.com/)
+
 ==> [Menu](#menu)
 
 ### Other_Drawing_programs 
@@ -128,12 +136,14 @@
 * [three.js](https://threejs.org/)
 * [Grasshopper (included in Rhino 6)](https://vimeopro.com/rhino/grasshopper-getting-started-by-david-rutten)
 * [Rhino 3d](https://www.rhino3d.com/gallery/12)
+
 ==> [Menu](#menu)
 
 ### Other_portals
 * [shapeoko.com](http://www.shapeoko.com/wiki/index.php/OpenSCAD#Other_Support_Tools)
 * [Fablab](http://fablabamersfoort.nl/book/openscad)
 * [William Adams](http://www.shapeoko.com/wiki/index.php/Programmatic_G-Code_Generators)
+
 ==> [Menu](#menu)
 
 ### Inspiration
