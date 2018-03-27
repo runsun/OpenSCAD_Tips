@@ -18,7 +18,7 @@
 * [area](http://forum.openscad.org/Easy-way-to-get-the-area-of-a-polygon-tp17045p17055.html) 
 * Associated Array: See hash below 
 * Bazier [Ronaldo's](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19309.html), [nophead's subdivision3](http://forum.openscad.org/OpenSCAD-programming-question-recursion-functions-and-modules-tp23197p23217.html), Eric Buijs' [PolyBeziers](https://plus.google.com/104802930025458639218/posts/VZrXMxLd8Mt), [NateTG's n-Bezier](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23329.html)([his Correction](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23335.html)), [Revar Desmera's BOSL](https://github.com/revarbat/BOSL/wiki/beziers.scad) 
-* Bounding box (1) [doc](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Commented_Example_Projects) handles only one obj; (2) [Ronaldo](http://forum.openscad.org/Round-anything-Retrospective-rounding-filleting-module-tp21794p21820.html) handles one or more; (3) [Ronaldo's 2d](http://forum.openscad.org/Getting-2D-bounding-box-dimensions-td23256.html) | 
+* Bounding box (1) [doc](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Commented_Example_Projects) handles only one obj; (2) [Ronaldo](http://forum.openscad.org/Round-anything-Retrospective-rounding-filleting-module-tp21794p21820.html) handles one or more; (3) [Ronaldo's 2d](http://forum.openscad.org/Getting-2D-bounding-box-dimensions-td23256.html) 
 * [Chinese font](http://forum.openscad.org/How-to-write-a-texture-to-a-face-Solid-in-a-geometric-model-tp16718p16753.html) 
 * color/HTML color: [MichaelAtOz](https://github.com/openscad/openscad/files/1250754/rgb.txt) 
 * Commandline [Enable Exp Features](http://forum.openscad.org/Enable-experimental-features-concat-text-in-command-line-td9287.html#a9290), [Set parameters and rotation](http://forum.openscad.org/Animating-gif-with-3D-rotation-td14011.html#a14029) 
@@ -39,7 +39,7 @@
 * [lerp](http://forum.openscad.org/Irregular-mesh-generated-tp13765p13779.html ) 
 * [Lazy Union by Parkinbot](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20126.html), [Ronaldo's](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20140.html) 
 * [makefile](http://forum.openscad.org/Makefile-for-building-complex-models-from-a-single-file-td22296.html ) 
-* [matrix](http://www.thingiverse.com/thing:10249/#files)([2](http://forum.openscad.org/restrict-hull-function-to-one-or-two-dimensions-tp16696p16722.html),[3](https://github.com/lhartmann/openscad_m4lib/blob/master/m4.scad)); [invert](https://github.com/openscad/openscad/issues/1040#issuecomment-233208606) |  
+* [matrix](http://www.thingiverse.com/thing:10249/#files)([2](http://forum.openscad.org/restrict-hull-function-to-one-or-two-dimensions-tp16696p16722.html),[3](https://github.com/lhartmann/openscad_m4lib/blob/master/m4.scad)); [invert](https://github.com/openscad/openscad/issues/1040#issuecomment-233208606)  
 * Packaging: [1](http://forum.openscad.org/Managing-libraries-and-modules-in-complex-projects-td23200.html), [OpenSCAD-Modules by RobertFach](http://forum.openscad.org/A-Package-Manager-for-OpenSCAD-td23465.html)
 * Parser for OpenSCAD: [runsun's re_utils.py](https://bitbucket.org/runsun/py_re_utils/src/37b20287b338738dcf35635b3b310595a60fb76b/re_utils.py?at=master&fileviewer=file-view-default), [Hornbacher's node-scad-parser (node.js)](https://github.com/hhornbacher/node-scad-parser), [FreeCAD's (py)](https://github.com/jreinhardt/FreeCAD_sf_master/tree/master/src/Mod/OpenSCAD), [OpenSCAD's core parser.y](https://github.com/openscad/openscad/blob/master/src/parser.y), [Josef Prusa's thingdoc(py)](https://github.com/josefprusa/ThingDoc/blob/master/thingdoc) 
 * Parser in OpenSCAD: [runsun's scadx_match](https://bitbucket.org/runsun/scadx/src/f144a5d77e534ae81d712e41bd5e89d8a8629ab4/scadx_match.scad?at=master&fileviewer=file-view-default), [Parkinbot's stl parser](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19816.html), [APruss' Function parser](https://www.thingiverse.com/thing:2295309), [Carl Davidson's string.scad](https://www.thingiverse.com/thing:526023)([git](https://github.com/davidson16807/relativity.scad/blob/master/strings.scad))
@@ -55,7 +55,7 @@
 * Spring: [Parkinbot](http://forum.openscad.org/how-to-make-the-groove-more-width-tp20154p20158.html) 
 * [sweep](https://github.com/openscad/list-comprehension-demos/blob/master/sweep.scad) ([1](http://forum.openscad.org/Two-annoyances-td12935i20.html#a13110),[2](http://forum.openscad.org/Vertex-arrays-tp15876p15969.html),[3](http://forum.openscad.org/file/n18324/sweep2.scad)), [Benjemin Easing Func](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html), [Parkinbot's twisted vase](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23324.html)
 * [tail Recursion](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)([2](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16962.html),[3](http://forum.openscad.org/Tail-recursion-td17040.html),[4](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)) 
-* [text](http://forum.openscad.org/Wrapping-text-around-a-complex-geometry-tc18145.html), [Carl Davidson's str lib](https://www.thingiverse.com/thing:526023), [Chambered](http://forum.openscad.org/Chamfered-3D-text-td23162.html) | 
+* [text](http://forum.openscad.org/Wrapping-text-around-a-complex-geometry-tc18145.html), [Carl Davidson's str lib](https://www.thingiverse.com/thing:526023), [Chambered](http://forum.openscad.org/Chamfered-3D-text-td23162.html) 
 * testing: [tests in OpenSCAD](http://forum.openscad.org/Clarifying-behaviors-tp18492p18507.html)([2](http://forum.openscad.org/tests-in-OpenSCAD-td8978.html),[3](https://github.com/openscad/openscad/blob/master/doc/testing.txt)), [RoyaSutton](http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html)([pdf](https://cdn.thingiverse.com/assets/3c/16/d2/00/ea/refman.pdf)), [runsun's doctest](https://github.com/runsun/openscad_doctest)
 * [triangulation](http://forum.openscad.org/Simple-polygon-triangulation-td16755.html), [NateTG's](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23395.html) 
 * Tube: [Ronaldo's](http://forum.openscad.org/file/n19680/Tube_example.scad), [Runsun's](http://forum.openscad.org/Bent-rod-td14003.html), [Johan's](http://forum.openscad.org/method-to-sweep-or-skin-a-hollow-object-without-difference-function-tp19677p19688.html) 
@@ -112,7 +112,7 @@
 ### OpenSCAD_variations 
 * [openjscad](http://www.openjscad.org/) 
 * [ImplicitCad (ExtOpenScad)](http://www.implicitcad.org/examples/twisted_extrusion) 
-* [OpenSCAD on rollApp](https://www.rollapp.com/launch/openscad) | 
+* [OpenSCAD on rollApp](https://www.rollapp.com/launch/openscad)
 * [OpenSCAD on AWS](http://forum.openscad.org/Running-OpenSCAD-on-an-Amazon-AWS-EC2-server-td9544.html)([pdf](http://files.openscad.org/public/OpenSCAD%20on%20EC2.pdf)) 
 * [OpenPyScad](https://github.com/taxpon/openpyscad)
 * [SolidPython](https://github.com/SolidCode/SolidPython) 
@@ -153,8 +153,9 @@
 ==> [Menu](#menu)
 
 ### References
-* Clipping [Martinez-Rueda](https://github.com/w8r/martinez) )([src](https://www.sciencedirect.com/science/article/pii/S0965997813000379)), [Greiner-Hormann details](http://davis.wpi.edu/~matt/courses/clipping/) 
+* Clipping [Martinez-Rueda](https://github.com/w8r/martinez) )([src](https://www.sciencedirect.com/science/article/pii/S0965997813000379))
+* [Greiner-Hormann details](http://davis.wpi.edu/~matt/courses/clipping/) 
 * Math: [R.Penner's Easing func](http://robertpenner.com/easing/) 
-| Geometry: [2d collision detect in js](https://github.com/bmoren/p5.collide2D/blob/master/p5.collide2d.js) 
+* Geometry: [2d collision detect in js](https://github.com/bmoren/p5.collide2D/blob/master/p5.collide2d.js) 
 
 ==> [Menu](#menu)
