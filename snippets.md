@@ -22,7 +22,26 @@ echo( hash( ["a",1,"b",2], "b" ) );  // 2
 echo( hash( ["a",1,"b",2], "c" ) );  // undef
 echo( hash( ["a",1,"b",2], "c", "missing" ) ); // "missing"
 ```
+```javascript
+function update(h,g)=
+(
 
+  !g? h //<=============== this line added 2015/3/17
+  :!h? g //<=============== this line added 2015/6/10
+  :[ for(i2=[0:len(h)+len(g)-1])      // Run thru entire range of h + g
+      let(is_key= round(i2/2)==i2/2  // i2 is even= this position is a key
+         ,is_h = i2<len(h)           // Is i2 currently in the range of h ?
+         ,cur_h = is_h?h:g           // Is current hash the h or g?
+         ,cur_i = is_h?i2:(i2-len(h)) // Convert i2 to h or g index
+         ,k= cur_h[ is_key?cur_i:cur_i-1 ]  // Current key
+         ,overlap = kidx((is_h?g:h),k)>=0   // Is cur k-v overlap btw h & g?
+      )
+      if( !(overlap&&!is_h)) // Skip if overlap and current hash is g
+         is_key? k
+               : overlap?hash(g,k):cur_h[cur_i]    
+   ]
+);
+```
    ==> [Menu](#menu) 
 
 ---
