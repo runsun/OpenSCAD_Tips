@@ -139,10 +139,12 @@
 ### Inspiration
 * [Santos's js 2d/3d transform lib](https://github.com/ruisoftware/jquery-rsSlideIt)
 * [Bending](https://en.wikipedia.org/wiki/Bending)
+
 ==> [Menu](#menu)
 
 ### References
 * Clipping [Martinez-Rueda](https://github.com/w8r/martinez) )([src](https://www.sciencedirect.com/science/article/pii/S0965997813000379)), [Greiner-Hormann details](http://davis.wpi.edu/~matt/courses/clipping/) 
 * Math: [R.Penner's Easing func](http://robertpenner.com/easing/) 
 | Geometry: [2d collision detect in js](https://github.com/bmoren/p5.collide2D/blob/master/p5.collide2d.js) 
+
 ==> [Menu](#menu)
