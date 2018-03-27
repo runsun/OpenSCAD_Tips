@@ -1,7 +1,7 @@
 # OpenSCAD Tips
 
 #### Menu
-| [**Official**](#Official_help) | [**tips**](#tips) | [**My_libs**](#my_libs) | [**Tools**](#Tools) | [**Libs**](#Libs) |  [**lib_systems**](#lib_systems) | [**OpenSCAD_variations**](#openscad_variations) | [**other_cads**](#other_cads) |  [**Other_Drawing_programs**](#other_drawing_programs) | [**Inspiration**](#inspiration) | [**References**](#references) |
+| [**Official**](#Official_help) | [**tips**](#tips) | [**My_libs**](#my_libs) | [**Tools**](#Tools) | [**Libs**](#Libs) |  [**Lib_systems**](#lib_systems) | [**OpenSCAD_variations**](#openscad_variations) | [**Other_cads**](#other_cads) |  [**Other_Drawing_programs**](#other_drawing_programs) | [**Inspiration**](#inspiration) | [**References**](#references) |
 
 ### Official_help 
 * [OpenSCAD language ref](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language) 
@@ -13,7 +13,7 @@
 
 ==> [Menu](#menu) 
 
-### tips 
+### Tips 
 * [animation](http://forum.openscad.org/About-animation-just-for-the-record-just-for-Windows-users-td16733.html) ( [gif](http://forum.openscad.org/Animating-gif-with-3D-rotation-tp14011.html), [prodVid](http://forum.openscad.org/Product-Video-produced-with-OpenSCAD-td15783.html), [animlib](http://forum.openscad.org/Animation-Motion-Library-td17196.html), [imgsize](http://forum.openscad.org/Can-I-force-Animation-to-use-quot-Render-quot-instead-of-quot-Preview-quot-td14828.html#a14848), [JordanBrown](http://forum.openscad.org/matrix-interpolation-td22284.html)) 
 * [area](http://forum.openscad.org/Easy-way-to-get-the-area-of-a-polygon-tp17045p17055.html) 
 * Associated Array: See hash below 
