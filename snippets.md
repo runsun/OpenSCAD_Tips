@@ -29,10 +29,9 @@ function haskey(h,k)= len([for( i=[0:2:len(h)-2]) if(h[i]==k)k ])>0;
 function kidx(h,k)=  //= index of k in keys(h)
     [for(i=[0:2:len(h)-2]) if(h[i]==k)i/2][0];
 function hashkvs(h)= [for(i=[0:2:len(h)-2]) [h[i],h[i+1]]];
-//h = ["a",1,  "b",2, 3,33] )
-//hashkvs(h)= [["a",1],["b",2],[3,33]], h ]
-```
-```javascript
+>>> h = ["a",1,  "b",2, 3,33];
+>>> hashkvs(h); // [["a",1],["b",2],[3,33]], h ]
+
 function delkey(h,k)=    
 (
    h?[ for(i=[0:len(h)-1])  
@@ -45,11 +44,9 @@ function delkeys(h,ks)=
      if(i%2==0 && !has(ks,h[i])||(i%2!=0 && !has(ks,h[i-1]))) h[i] 
    ]:[] 
 ); 
-```  
-```javascript
+
 function update(h,g)=
 (
-
   !g? h //<=============== this line added 2015/3/17
   :!h? g //<=============== this line added 2015/6/10
   :[ for(i2=[0:len(h)+len(g)-1])      // Run thru entire range of h + g
