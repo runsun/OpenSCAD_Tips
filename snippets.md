@@ -23,6 +23,30 @@ echo( hash( ["a",1,"b",2], "c" ) );  // undef
 echo( hash( ["a",1,"b",2], "c", "missing" ) ); // "missing"
 ```
 ```javascript
+function keys(h)= [for(i=[0:2:len(h)-2]) h[i]];
+function vals(h)= [for(i=[1:2:len(h)]) h[i]];
+function haskey(h,k)= len([for( i=[0:2:len(h)-2]) if(h[i]==k)k ])>0;
+function kidx(h,k)=  //= index of k in keys(h)
+    [for(i=[0:2:len(h)-2]) if(h[i]==k)i/2][0];
+function hashkvs(h)= [for(i=[0:2:len(h)-2]) [h[i],h[i+1]]];
+//h = ["a",1,  "b",2, 3,33] )
+//hashkvs(h)= [["a",1],["b",2],[3,33]], h ]
+```
+```javascript
+function delkey(h,k)=    
+(
+   h?[ for(i=[0:len(h)-1])  
+     if((i%2==0 && h[i]!=k)||(i%2!=0 && h[i-1]!=k)) h[i] 
+   ]:[]
+);     
+function delkeys(h,ks)= 
+( 
+   h?[ for(i=[0:len(h)-1])  
+     if(i%2==0 && !has(ks,h[i])||(i%2!=0 && !has(ks,h[i-1]))) h[i] 
+   ]:[] 
+); 
+```  
+```javascript
 function update(h,g)=
 (
 
