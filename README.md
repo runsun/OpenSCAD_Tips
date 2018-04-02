@@ -11,7 +11,7 @@
 * [OpenSCAD forum](http://forum.openscad.org)
 * [OpenSCAD freenode IRC](http://webchat.freenode.net/?channels=#openscad)
 
-==> [Menu](#menu) 
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### Tips 
 * [animation](http://forum.openscad.org/About-animation-just-for-the-record-just-for-Windows-users-td16733.html) ( [gif](http://forum.openscad.org/Animating-gif-with-3D-rotation-tp14011.html), [prodVid](http://forum.openscad.org/Product-Video-produced-with-OpenSCAD-td15783.html), [animlib](http://forum.openscad.org/Animation-Motion-Library-td17196.html), [imgsize](http://forum.openscad.org/Can-I-force-Animation-to-use-quot-Render-quot-instead-of-quot-Preview-quot-td14828.html#a14848), [JordanBrown](http://forum.openscad.org/matrix-interpolation-td22284.html)) 
@@ -66,7 +66,7 @@
 * [Warning, User](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html) 
 * Wavy solid: [Parkinbot's](http://forum.openscad.org/Sweeping-a-cone-through-a-range-of-angles-about-the-origin-tp19662p19676.html) 
 
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### My_libs
 * [scadx](https://bitbucket.org/runsun/scadx) 
@@ -76,7 +76,7 @@
 * [runscad.py](http://forum.openscad.org/Animating-gif-with-3D-rotation-tp14011p14029.html)([2](http://forum.openscad.org/Symmetrical-Rotation-tp14062p14075.html), [git](https://gist.github.com/runsun/995250a8002386ab9abc)) 
 * [synwrite](http://forum.openscad.org/Happy-New-Year-OpenSCAD-syntax-lexer-for-SynWrite-td15402.html)([2](http://www.thingiverse.com/thing:1237864)), [CudaText](http://forum.openscad.org/Syntax-highlighting-tp23247p23258.html)
 
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### Tools
 * [Daid's Polygon maker](http://daid.eu/~daid/3d/) 
@@ -91,14 +91,14 @@
 * [Desmos math calculator/plotter](https://www.desmos.com/calculator)
 * [Define/draw Bezier curve w/ desmos](https://www.desmos.com/calculator/cahqdxeshd)
 
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### Libs
 * [Brendan M. Sleight's lasercut](https://github.com/bmsleight/lasercut)
 * [Hans Loeblich's functional](https://github.com/thehans/FunctionalOpenSCAD/blob/master/functional.scad) ([discussion](http://forum.openscad.org/Functional-OpenSCAD-working-with-vertex-data-td21080.html)) 
 * [Carl Davidson's Relativity](https://github.com/davidson16807/relativity.scad/wiki) 
 
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### Lib_systems
 * [Revar Desmera's BOSL](https://github.com/revarbat/BOSL) 
@@ -107,7 +107,7 @@
 * [Justin Lin's dotSCAD](https://github.com/JustinSDK/dotSCAD) 
 * [Revar Desmera's Belfry OpenScad Library](https://github.com/revarbat/BOSL)
 
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### OpenSCAD_variations 
 * [openjscad](http://www.openjscad.org/) 
@@ -117,7 +117,7 @@
 * [OpenPyScad](https://github.com/taxpon/openpyscad)
 * [SolidPython](https://github.com/SolidCode/SolidPython) 
 
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### Other_cads
 * [blockscad](https://blockscad.einsteinsworkshop.com/)
@@ -129,7 +129,7 @@
 * [mattkeeter's Antimony](http://www.mattkeeter.com/projects/antimony/3/) (also look at [/1](http://www.mattkeeter.com/projects/antimony/1), [/2](http://www.mattkeeter.com/projects/antimony/2)) 
 * [Wings](http://www.wings3d.com/)
 
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### Other_Drawing_programs 
 * [Context-free](https://github.com/MtnViewJohn/context-free)
@@ -137,22 +137,23 @@
 * [Grasshopper (included in Rhino 6)](https://vimeopro.com/rhino/grasshopper-getting-started-by-david-rutten)
 * [Rhino 3d](https://www.rhino3d.com/gallery/12)
 
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### Other_portals
 * [shapeoko.com](http://www.shapeoko.com/wiki/index.php/OpenSCAD#Other_Support_Tools)
 * [Fablab](http://fablabamersfoort.nl/book/openscad)
 * [William Adams](http://www.shapeoko.com/wiki/index.php/Programmatic_G-Code_Generators)
 
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### Inspiration
 * [Santos's js 2d/3d transform lib](https://github.com/ruisoftware/jquery-rsSlideIt)
 * [Bending](https://en.wikipedia.org/wiki/Bending)
 
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### References
+* [The Cambridge Cluster Database](http://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/table.html): data pts of different spheres(Global Minima for the Thomson Problem) 
 * Clipping [Martinez-Rueda](https://github.com/w8r/martinez) )([src](https://www.sciencedirect.com/science/article/pii/S0965997813000379))
 * [Greiner-Hormann details](http://davis.wpi.edu/~matt/courses/clipping/) 
 * Math: [R.Penner's Easing func](http://robertpenner.com/easing/) 
@@ -160,5 +161,4 @@
 * Data structure: [Winged-edge](http://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/model/winged-e.html)
 * UC Clavis Computer Graphics: [Sabastian Ng](https://www.youtube.com/watch?v=01YSK5gIEYQ) including subdivision, etc
 
-
-==> [Menu](#menu)
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu) 
