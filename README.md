@@ -152,6 +152,11 @@
 
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
+### Subdivision
+
+* [Catmull-Clark Surface w/ code](http://hinjang.com/articles/04.html#eight) 
+* [Tesselation w/ code](http://hinjang.com/articles/01.html#two)
+
 ### References
 * [The Cambridge Cluster Database](http://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/table.html): data pts of different spheres(Global Minima for the Thomson Problem) 
 * Clipping [Martinez-Rueda](https://github.com/w8r/martinez) )([src](https://www.sciencedirect.com/science/article/pii/S0965997813000379))
