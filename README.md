@@ -1,7 +1,7 @@
 # OpenSCAD Tips
 
 #### Menu
-| [**Official**](#Official_help) | [**tips**](#tips) | [**My_libs**](#my_libs) | [**Tools**](#Tools) | [**Libs**](#Libs) |  [**Lib_systems**](#lib_systems) | [**OpenSCAD_variations**](#openscad_variations) | [**Other_cads**](#other_cads) |  [**Other_Drawing_programs**](#other_drawing_programs) | [**Inspiration**](#inspiration) | [**References**](#references) |
+| [**Official**](#Official_help) | [**tips**](#tips) | [**My_libs**](#my_libs) | [**Tools**](#Tools) | [**Libs**](#Libs) |  [**Lib_systems**](#lib_systems) | [**OpenSCAD_variations**](#openscad_variations) | [**Other_cads**](#other_cads) |  [**Other_Drawing_programs**](#other_drawing_programs) | [**Inspiration**](#inspiration) | [**Subdivision**](#subdivision) | [**References**](#references) |
 
 ### Official_help 
 * [OpenSCAD language ref](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language) 
@@ -156,6 +156,8 @@
 
 * [Catmull-Clark Surface w/ code](http://hinjang.com/articles/04.html#eight) 
 * [Tesselation w/ code](http://hinjang.com/articles/01.html#two)
+
+==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### References
 * [The Cambridge Cluster Database](http://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/table.html): data pts of different spheres(Global Minima for the Thomson Problem) 
