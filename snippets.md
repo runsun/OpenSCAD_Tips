@@ -1,8 +1,8 @@
 ## OpenSCAD snippets for copy and paste ##
 
 #### Menu
-| [**hash**( *h,k* )](#hash) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate) | [**sortArrs**( *arrs,by=0* )](#sortarrs) |
-|--|--|--|--|
+| [**hash**( *h,k* )](#hash) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate) | [**sortArrs**( *arrs,by=0* )](#sortarrs) | [**chari**( *s,c* )](#chari) |
+|--|--|--|--|--|
 
 ---
 ### hash
@@ -177,3 +177,17 @@ sortArrs(arrs,by=2):
 
 ```
    ==> [Menu](#menu) 
+   
+---
+### chari
+
+| Type | API | Source | Remark |
+|------|-----|--------|--------|
+|Function| **chari**( *s,c* ) | [Parkinbot](http://forum.openscad.org/taking-customizer-input-and-using-it-in-a-pair-of-nested-loops-tp23921p23935.html) | Return index of char (but not substr) in a str|
+
+```javascript
+function chari(s,c) = search(c, s, 0)[0][0];
+```
+   ==> [Menu](#menu) 
+
+   
