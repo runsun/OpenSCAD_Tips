@@ -1,7 +1,7 @@
 ## OpenSCAD snippets for copy and paste ##
 
 #### Menu
-| [**hash**( *h,k* )](#hash) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate) | [**sortArrs**( *arrs,by=0* )](#sortarrs) | [**chari**( *s,c* )](#chari) |
+| [**hash**( *h,k* )](#hash) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate) | [**sortArrs**( *arrs,by=0* )](#sortarrs) | [**ichar**( *s,c* )](#ichar) |
 |--|--|--|--|--|
 
 ---
@@ -10,7 +10,7 @@
 |------|-----|--------|--------|
 |Func| **hash**( *h,k* ) | Runsun | Very efficient search()-based associated array|
 
-```javascript
+```c++
 function hash(h,k, notfound)= 
 (
   let(rtn = h[ search([k], [for(i=[0:2:len(h)-2])h[i]])[0]*2+1 ])
@@ -22,7 +22,11 @@ echo( hash( ["a",1,"b",2], "b" ) );  // 2
 echo( hash( ["a",1,"b",2], "c" ) );  // undef
 echo( hash( ["a",1,"b",2], "c", "missing" ) ); // "missing"
 ```
-```javascript
+
+
+```c++
+// Associated functions:
+
 function keys(h)= [for(i=[0:2:len(h)-2]) h[i]];
 function vals(h)= [for(i=[1:2:len(h)]) h[i]];
 function haskey(h,k)= len([for( i=[0:2:len(h)-2]) if(h[i]==k)k ])>0;
@@ -30,7 +34,7 @@ function kidx(h,k)=  //= index of k in keys(h)
     [for(i=[0:2:len(h)-2]) if(h[i]==k)i/2][0];
 function hashkvs(h)= [for(i=[0:2:len(h)-2]) [h[i],h[i+1]]];
 >>> h = ["a",1,  "b",2, 3,33];
->>> hashkvs(h); // [["a",1],["b",2],[3,33]], h ]
+>>> hashkvs(h); // [["a",1],["b",2],[3,33]]
 
 function delkey(h,k)=    
 (
@@ -72,7 +76,7 @@ function update(h,g)=
 |------|-----|--------|--------|
 |Module| **Line**( *pts* ) | Inspired by [Ronaldo](http://forum.openscad.org/Can-you-sweep-a-object-with-fingers-tp19057p19330.html) | Much more efficient than a direct hull() of points|
 
-```javascript
+```c++
 module Line( pts, r=0.05, closed=false, color=undef, transp=1, fn=4 )
 {
   if(len(pts)>1 && len(pts[0])>1 && r>0) 
@@ -104,7 +108,7 @@ module Line( pts, r=0.05, closed=false, color=undef, transp=1, fn=4 )
 |------|-----|--------|--------|
 |Function| **rotate**( *angle* ) | [nophead](http://forum.openscad.org/Rounding-Errors-tp21821p21834.html) | Fix an issue of the built-in rotate()|
 
-```javascript
+```c++
 module rotate(angle)            // built-in rotate is inaccurate for 90 degrees, etc
 {
  a = len(angle) == undef ? [0, 0, angle] : angle;
@@ -132,7 +136,7 @@ module rotate(angle)            // built-in rotate is inaccurate for 90 degrees,
 |------|-----|--------|--------|
 |Function| **sortArrs**( *arrs,by=0* ) | [runsun](http://forum.openscad.org/Programming-in-Functional-OpenSCAD-tp23039p23280.html) | A quick sort for arrays based on given index. Inspired by [Ronaldo](http://forum.openscad.org/Programming-in-Functional-OpenSCAD-tp23039p23272.html) |
 
-```javascript
+```c++
 function sortArrs(arrs, by=0)=
 (
   !(len(arrs)>0) ? [] : 
@@ -179,14 +183,14 @@ sortArrs(arrs,by=2):
    ==> [Menu](#menu) 
    
 ---
-### chari
+### ichar
 
 | Type | API | Source | Remark |
 |------|-----|--------|--------|
-|Function| **chari**( *s,c* ) | [Parkinbot](http://forum.openscad.org/taking-customizer-input-and-using-it-in-a-pair-of-nested-loops-tp23921p23935.html) | Return index of char (but not substr) in a str|
+|Function| **ichar**( *s,c* ) | [Parkinbot](http://forum.openscad.org/taking-customizer-input-and-using-it-in-a-pair-of-nested-loops-tp23921p23935.html) | Return index of char (but not substr) in a str|
 
-```javascript
-function chari(s,c) = search(c, s, 0)[0][0];
+```c++
+function ichar(s,c) = search(c, s, 0)[0][0];
 ```
    ==> [Menu](#menu) 
 
