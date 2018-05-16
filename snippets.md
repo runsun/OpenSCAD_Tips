@@ -1,7 +1,7 @@
 ## OpenSCAD snippets for copy and paste ##
 
 #### Menu
-| [**hash**( *h,k* )](#hash) | [**ichar**( *s,c* )](#ichar) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate_fixed) | [**rotFromTo**( *vi,vo* )](#rotate_anydir) | [**rotM**( *pq,a* )](#rotate_anyaxis) | [**sortArrs**( *arrs,by=0* )](#sortarrs) |
+| [**hash**( *h,k* )](#hash) | [**ichar**( *s,c* )](#ichar) | [**Line**( *pts* )](#line) | [**rotate-fixed**](#rotate_fixed) | [**rotate-any dir**](#rotate_anydir) | [**rotate-any axis**](#rotate_anyaxis) | [**sortArrs**( *arrs,by=0* )](#sortarrs) |
 |--|--|--|--|--|--|--|
 
 ---
