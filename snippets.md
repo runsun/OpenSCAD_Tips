@@ -1,7 +1,7 @@
 ## OpenSCAD snippets for copy and paste ##
 
 #### Menu
-| [**hash**( *h,k* )](#hash) | [**ichar**( *s,c* )](#ichar) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate_fixed) | [**rotFromTo**( *vi,vo* )](#rotate_ronaldo) | [**rotM**( *pq,a* )](#rotate_runsun) | [**sortArrs**( *arrs,by=0* )](#sortarrs) |
+| [**hash**( *h,k* )](#hash) | [**ichar**( *s,c* )](#ichar) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate_fixed) | [**rotFromTo**( *vi,vo* )](#rotate_anydir) | [**rotM**( *pq,a* )](#rotate_anyaxis) | [**sortArrs**( *arrs,by=0* )](#sortarrs) |
 |--|--|--|--|--|--|--|
 
 ---
@@ -142,7 +142,7 @@ module rotate(angle)            // built-in rotate is inaccurate for 90 degrees,
 
 
 ---
-### rotate_ronaldo
+### rotate_anydir
 
 | Type | API | Source | Remark |
 |------|-----|--------|--------|
@@ -160,7 +160,7 @@ module rotFromTo(vi,vo)
 
 ---
 
-### rotate_runsun
+### rotate_anyaxis
 
 | Type | API | Source | Remark |
 |------|-----|--------|--------|
