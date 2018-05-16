@@ -166,10 +166,10 @@ module rotFromTo(vi,vo)
 |------|-----|--------|--------|
 |Function| **rotObj**(*pq,a*), **rotPts**(*pts,pq,a*)  | Runsun | Rotate obj or points about ANY axis |
 ```c++
-// Rotate an obj: rotObj( pq,a ) obj()
-// Rotate points: rotPts( pts, pq, a )
+// Rotate an obj: rotObj( pq,a ) obj();
+// Rotate points: rotPts( pts, pq, a );
 function rotM(pq,a) = 
-(   /* 
+(  /* 
        Rotation matrix about any arbitrary axis pq.       
        http://www.fastgraph.com/makegames/3drotation/
    */   
@@ -202,16 +202,8 @@ module rotObj( pq, a )
        children();
     }           
 } 
-
-function rotPt(pt,pq,a)=
-(
-   rotM(pq,a)*(pt-pq[0]) + pq[0] 
-);
-
-function rotPts(pts,pq,a)=
-(
-   [ for(p=pts) rotPt(p,pq,a)]
-);
+function rotPt(pt,pq,a)= rotM(pq,a)*(pt-pq[0]) + pq[0] ;
+function rotPts(pts,pq,a)= [ for(p=pts) rotPt(p,pq,a) ] ;
 ```
 ==> [Menu](#menu) 
 
