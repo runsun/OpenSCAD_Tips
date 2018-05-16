@@ -126,8 +126,19 @@ module rotate(angle)            // built-in rotate is inaccurate for 90 degrees,
  ]) children();
 }      
 ```
-   ==> [Menu](#menu) 
+==> [Menu](#menu) 
 
+| Type | API | Source | Remark |
+|------|-----|--------|--------|
+|Function| **rotFromTo**( *vi,vo* ) | [Ronaldo](http://forum.openscad.org/rotate-45-45-0-tp24013p24015.html) | Rotate obj from one direction to another (no worry about angle) about an axis passing [0,0,0] |
+
+```c++
+module rotFromTo(vi,vo) 
+    if( norm(vi-vo)==0 || norm(vi)==0 || norm(vo)==0 ) 
+        children();
+    else 
+        mirror(vo/norm(vo)+vi/norm(vi)) mirror(vi) children();
+```
 
 --- 
 ### sortArrs
