@@ -173,24 +173,22 @@ function rotM(pq,a) =
        Rotation matrix about any arbitrary axis pq.       
        http://www.fastgraph.com/makegames/3drotation/
    */   
-   let( 
-      /* if we move pq by moving p to ORIGIN, p=>q will be looking
-         outward from the ORIGIN. This will result in wrong direction
-         of rotation. So we need to reverse it.
-      */
-      , uv = ( pq[0]-pq[1])/norm(pq[1]- pq[0]) // unit vector
+   let( /* if we move pq by moving p to ORIGIN, p=>q will be looking
+           outward from the ORIGIN. This will result in wrong direction
+           of rotation. So we need to reverse it.
+        */
+        uv = ( pq[0]-pq[1])/norm(pq[1]- pq[0]) // unit vector
       , x=uv[0]
       , y=uv[1]
       , z=uv[2]
       , c=cos(a)
       , s=sin(a)
       , t=1-c
-      , m= [ [ t*(x*x)+c,   t*(x*y)-s*z, t*(x*z)+s*y ]
-           , [ t*(x*y)+s*z, t*(y*y)+c,   t*(y*z)-s*x ]
-           , [ t*(x*z)-s*y, t*(y*z)+s*x, t*(z*z)+c   ]
-           ]
-       )
-   m
+      )
+      [ [ t*(x*x)+c,   t*(x*y)-s*z, t*(x*z)+s*y ]
+      , [ t*(x*y)+s*z, t*(y*y)+c,   t*(y*z)-s*x ]
+      , [ t*(x*z)-s*y, t*(y*z)+s*x, t*(z*z)+c   ]
+      ]
 );
   
 module rotObj( pq, a )
