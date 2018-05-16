@@ -1,8 +1,8 @@
 ## OpenSCAD snippets for copy and paste ##
 
 #### Menu
-| [**hash**( *h,k* )](#hash) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate) | [**sortArrs**( *arrs,by=0* )](#sortarrs) | [**ichar**( *s,c* )](#ichar) |
-|--|--|--|--|--|
+| [**hash**( *h,k* )](#hash) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate_fixed) | [**rotFromTo**( *vi,vo* )](#rotate_rotFromTo) | [**rotM**( *pq,a* )](#rotate_rotM) | [**sortArrs**( *arrs,by=0* )](#sortarrs) | [**ichar**( *s,c* )](#ichar) |
+|--|--|--|--|--|--|--|
 
 ---
 ### hash
@@ -102,7 +102,7 @@ module Line( pts, r=0.05, closed=false, color=undef, transp=1, fn=4 )
 
 
 ---
-### rotate
+### rotate_fixed
 
 | Type | API | Source | Remark |
 |------|-----|--------|--------|
@@ -128,6 +128,10 @@ module rotate(angle)            // built-in rotate is inaccurate for 90 degrees,
 ```
 ==> [Menu](#menu) 
 
+
+---
+### rotate_rotFromTo
+
 | Type | API | Source | Remark |
 |------|-----|--------|--------|
 |Function| **rotFromTo**( *vi,vo* ) | [Ronaldo](http://forum.openscad.org/rotate-45-45-0-tp24013p24015.html) | Rotate obj from one direction to another (no worry about angle) about an axis passing [0,0,0] |
@@ -139,6 +143,65 @@ module rotFromTo(vi,vo)
     else 
         mirror(vo/norm(vo)+vi/norm(vi)) mirror(vi) children();
 ```
+==> [Menu](#menu) 
+
+
+---
+### rotate_rotM
+
+| Type | API | Source | Remark |
+|------|-----|--------|--------|
+|Function| **rotM**( *pq,a* ) | Runsun | Rotate obj or points about ANY axis |
+```c++
+// Rotate an obj: rotObj( pq,a ) obj()
+// Rotate points: rotPts( pts, pq, a )
+function rotM(pq,a) = 
+(   /* 
+       Rotation matrix about any arbitrary axis pq.       
+       http://www.fastgraph.com/makegames/3drotation/
+   */   
+   let( 
+      /* if we move pq by moving p to ORIGIN, p=>q will be looking
+         outward from the ORIGIN. This will result in wrong direction
+         of rotation. So we need to reverse it.
+      */
+      , uv = ( pq[0]-pq[1])/norm(pq[1]- pq[0]) // unit vector
+      , x=uv[0]
+      , y=uv[1]
+      , z=uv[2]
+      , c=cos(a)
+      , s=sin(a)
+      , t=1-c
+      , m= [ [ t*(x*x)+c,   t*(x*y)-s*z, t*(x*z)+s*y ]
+           , [ t*(x*y)+s*z, t*(y*y)+c,   t*(y*z)-s*x ]
+           , [ t*(x*z)-s*y, t*(y*z)+s*x, t*(z*z)+c   ]
+           ]
+       )
+   m
+);
+  
+module rotObj( pq, a )
+{
+    translate( pq[1] ) 
+    multmatrix(m= rotM( pq,a) ) 
+    {
+       translate( -1*pq[1] ) 
+       children();
+    }           
+} 
+
+function rotPt(pt,pq,a)=
+(
+   rotM(pq,a)*(pt-pq[0]) + pq[0] 
+);
+
+function rotPts(pts,pq,a)=
+(
+   [ for(p=pts) rotPt(p,pq,a)]
+);
+```
+==> [Menu](#menu) 
+
 
 --- 
 ### sortArrs
