@@ -1,7 +1,7 @@
 ## OpenSCAD snippets for copy and paste ##
 
 #### Menu
-| [**hash**( *h,k* )](#hash) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate_fixed) | [**rotFromTo**( *vi,vo* )](#rotate_rotFromTo) | [**rotM**( *pq,a* )](#rotate_rotM) | [**sortArrs**( *arrs,by=0* )](#sortarrs) | [**ichar**( *s,c* )](#ichar) |
+| [**hash**( *h,k* )](#hash) | [**ichar**( *s,c* )](#ichar) | [**Line**( *pts* )](#line) | [**rotate**( *angle* )](#rotate_fixed) | [**rotFromTo**( *vi,vo* )](#rotate_ronaldo) | [**rotM**( *pq,a* )](#rotate_runsun) | [**sortArrs**( *arrs,by=0* )](#sortarrs) |
 |--|--|--|--|--|--|--|
 
 ---
@@ -70,6 +70,18 @@ function update(h,g)=
    ==> [Menu](#menu) 
 
 ---
+### ichar
+
+| Type | API | Source | Remark |
+|------|-----|--------|--------|
+|Function| **ichar**( *s,c* ) | [Parkinbot](http://forum.openscad.org/taking-customizer-input-and-using-it-in-a-pair-of-nested-loops-tp23921p23935.html) | Return index of char (but not substr) in a str|
+
+```c++
+function ichar(s,c) = search(c, s, 0)[0][0];
+```
+   ==> [Menu](#menu) 
+   
+---
 ### Line
 
 | Type | API | Source | Remark |
@@ -130,7 +142,7 @@ module rotate(angle)            // built-in rotate is inaccurate for 90 degrees,
 
 
 ---
-### rotate_rotFromTo
+### rotate_ronaldo
 
 | Type | API | Source | Remark |
 |------|-----|--------|--------|
@@ -147,11 +159,12 @@ module rotFromTo(vi,vo)
 
 
 ---
-### rotate_rotM
+
+### rotate_runsun
 
 | Type | API | Source | Remark |
 |------|-----|--------|--------|
-|Function| **rotM**( *pq,a* ) | Runsun | Rotate obj or points about ANY axis |
+|Function| **rotObj**(*pq,a*), **rotPts**(*pts,pq,a*)  | Runsun | Rotate obj or points about ANY axis |
 ```c++
 // Rotate an obj: rotObj( pq,a ) obj()
 // Rotate points: rotPts( pts, pq, a )
@@ -256,16 +269,6 @@ sortArrs(arrs,by=2):
 ```
    ==> [Menu](#menu) 
    
----
-### ichar
 
-| Type | API | Source | Remark |
-|------|-----|--------|--------|
-|Function| **ichar**( *s,c* ) | [Parkinbot](http://forum.openscad.org/taking-customizer-input-and-using-it-in-a-pair-of-nested-loops-tp23921p23935.html) | Return index of char (but not substr) in a str|
-
-```c++
-function ichar(s,c) = search(c, s, 0)[0][0];
-```
-   ==> [Menu](#menu) 
 
    
