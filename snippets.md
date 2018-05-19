@@ -155,6 +155,19 @@ module rotFromTo(vi,vo)
     else 
         mirror(vo/norm(vo)+vi/norm(vi)) mirror(vi) children();
 ```
+The functions to calc the corresponding rotation matrix:
+```c++
+function TrotFromTo(vi,vo) =
+    norm(vi-vo)==0 || norm(vi)==0 || norm(vo)==0 ? 
+        [[1,0,0],[0,1,0],[0,0,1]] :
+        Tmirror(vo/norm(vo)+vi/norm(vi)) * Tmirror(vi);
+
+function Tmirror(v) =
+    norm(v)==0 ? 
+       [[1,0,0],[0,1,0],[0,0,1]] :
+       let(u = v/norm(v))
+       [ [1,0,0] - 2*u[0]*u, [0,1,0] - 2*u[1]*u, [0,0,1] - 2*u[2]*u ];
+```       
 ==> [Menu](#menu) 
 
 
