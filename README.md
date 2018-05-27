@@ -110,7 +110,8 @@
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### OpenSCAD_variations 
-* [openjscad](http://www.openjscad.org/) 
+* [openjscad.org](http://www.openjscad.org/) 
+* [OpenJsCad](http://joostn.github.io/OpenJsCad/)
 * [ImplicitCad (ExtOpenScad)](http://www.implicitcad.org/examples/twisted_extrusion) 
 * [OpenSCAD on rollApp](https://www.rollapp.com/launch/openscad)
 * [OpenSCAD on AWS](http://forum.openscad.org/Running-OpenSCAD-on-an-Amazon-AWS-EC2-server-td9544.html)([pdf](http://files.openscad.org/public/OpenSCAD%20on%20EC2.pdf)) 
@@ -120,14 +121,19 @@
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### Other_cads
+* [3DSlash](https://www.3dslash.net/index.php)
 * [blockscad](https://blockscad.einsteinsworkshop.com/)
 * [freeCAD](https://www.freecadweb.org/)
 * [snapSCAD](https://github.com/martymcguire/snapscad)
 * [3DDoctors.net](http://3ddoctors.net/)
 * [libfive](https://libfive.com/studio/)
 * [Curv](https://github.com/doug-moen/curv)
-* [mattkeeter's Antimony](http://www.mattkeeter.com/projects/antimony/3/) (also look at [/1](http://www.mattkeeter.com/projects/antimony/1), [/2](http://www.mattkeeter.com/projects/antimony/2)) 
+* [mattkeeter's Antimony](http://www.mattkeeter.com/projects/antimony/3/) (also look at [/1](http://www.mattkeeter.com/projects/antimony/1), [/2](http://www.mattkeeter.com/projects/antimony/2))
+* [Scalptris](http://pixologic.com/sculptris/)
+* [ScatchUp](https://www.sketchup.com/)
+* [TinkerCAD](https://www.tinkercad.com/)
 * [Wings](http://www.wings3d.com/)
+* [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software)
 
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
