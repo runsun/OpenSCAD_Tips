@@ -50,7 +50,7 @@
 * [rounded polygon](http://forum.openscad.org/Script-to-replicate-hull-and-minkoswki-for-CSG-export-import-into-FreeCAD-td16537.html) 
 * Search(): [details](http://forum.openscad.org/Digging-into-search-td12421.html) 
 * Shelling: [jweoblog](http://jweoblog.com/?p=644) 
-* Sphere [1](http://forum.openscad.org/New-Algorithm-for-Spheres-td13306.html#a17087), [Jamie Kawabata's geodesic sphere](https://www.thingiverse.com/thing:1484333), [thehans' alternative sphere](https://github.com/thehans/FunctionalOpenSCAD/blob/master/alternative_spheres.scad) 
+* Sphere [berkenb's ssphere](http://forum.openscad.org/Coating-a-sphere-with-bumps-golf-ball-ish-for-wheel-treads-tp24090p24094.html), [runsun's spherePF](https://github.com/runsun/OpenSCAD_Tips/blob/master/snippets.md#sphere), [1](http://forum.openscad.org/New-Algorithm-for-Spheres-td13306.html#a17087), [Jamie Kawabata's geodesic sphere](https://www.thingiverse.com/thing:1484333), [thehans' alternative sphere](https://github.com/thehans/FunctionalOpenSCAD/blob/master/alternative_spheres.scad) 
 * Spline [1](http://forum.openscad.org/Modelling-a-flexible-strip-td22645.html) 
 * Spring: [Parkinbot](http://forum.openscad.org/how-to-make-the-groove-more-width-tp20154p20158.html) 
 * [sweep](https://github.com/openscad/list-comprehension-demos/blob/master/sweep.scad) ([1](http://forum.openscad.org/Two-annoyances-td12935i20.html#a13110),[2](http://forum.openscad.org/Vertex-arrays-tp15876p15969.html),[3](http://forum.openscad.org/file/n18324/sweep2.scad)), [Benjemin Easing Func](http://forum.openscad.org/Sweep-with-easing-equations-td20075.html), [Parkinbot's twisted vase](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23324.html)
