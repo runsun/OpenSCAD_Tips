@@ -3,7 +3,7 @@
 #### Menu
 | [**hash**(*h,k*)](#hash) | [**ichar**(*s,c*)](#ichar) | [**Line**(*pts*)](#line) | [**rotate-fixed**](#rotate_fixed) | [**rotate-any dir**](#rotate_anydir) | [**rotate-any axis**](#rotate_anyaxis) |
 |--|--|--|--|--|--|
-| [**sortArrs**(*arrs,by=0*)](#sortarrs) | [**Sphere**(*r,n*)](#sphere) |
+| [**sortArrs**(*arrs,by=0*)](#sortarrs) | [**spherePF**(*r,n*)](#sphere) |
 |--|--|
 
 ---
@@ -283,44 +283,50 @@ sortArrs(arrs,by=2):
 
 | Type | API | Source | Remark |
 |------|-----|--------|--------|
-|Module| **Sphere**(*r,n*)  | [berkenb](http://forum.openscad.org/Coating-a-sphere-with-bumps-golf-ball-ish-for-wheel-treads-tp24090p24094.html) | Super efficient geodesic sphere |
+|Function| **spherePF**(*r,n*)  | runsun | Modified from [berkenb's](http://forum.openscad.org/Coating-a-sphere-with-bumps-golf-ball-ish-for-wheel-treads-tp24090p24094.html) super efficient geodesic ssphere module |
 ```c++
-module Sphere(r=1, n=0) { 
-    C0 = (1+sqrt(5))/4; 
-    pts = [ [0.5, 0, C0], [0.5, 0, -C0], [-0.5, 0, C0], [-0.5, 0, -C0]
-          , [C0,0.5, 0], [C0, -0.5, 0], [-C0, 0.5, 0], [-C0, -0.5, 0]
-          , [0, C0, 0.5], [0, C0,-0.5], [0, -C0, 0.5], [0, -C0, -0.5]]; 
-    fcs = [ [10, 2, 0], [5, 10, 0], [4, 5, 0], [8, 4, 0], [2, 8, 0]
-          , [11, 1, 3], [7, 11, 3], [6, 7, 3], [9, 6, 3], [1, 9, 3]
-          , [7, 6, 2], [10, 7, 2], [11, 7,10], [5, 11, 10], [1, 11, 5]
-          , [4, 1, 5], [9, 1, 4], [8, 9, 4], [6, 9, 8], [2, 6, 8]]; 
-    npts = [for (v=pts) v/norm(v) ];  
-    subdiv_sphere(npts, fcs, r, n);
-   
-   module subdiv_sphere(pts, fcs, r, n) 
-   { 
-    if (n>0) { 
-       spts = concat(pts
-                    , [ each for (f=fcs) 
-                       [(pts[f[0]]+pts[f[1]])
-                       ,(pts[f[1]]+pts[f[2]])
-                       ,(pts[f[2]]+pts[f[0]])
+function spherePF(r=1,n=1,_pts=[],_fcs=[])=
+(  
+   // Modified from berkenb's excellent ssphere:
+   // http://forum.openscad.org/Coating-a-sphere-with-bumps-golf-ball-ish-for-wheel-treads-tp24090p24094.html
+   // return [pt, faces]
+
+  _pts==[]?
+    let(
+        C0 = (1+sqrt(5))/4 
+      , pts = [ [0.5,0,C0],[0.5,0,-C0],[-0.5,0,C0],[-0.5,0,-C0]
+              , [C0,0.5,0],[C0,-0.5,0],[-C0,0.5,0],[-C0,-0.5,0]
+              , [0,C0,0.5],[0,C0,-0.5],[0,-C0,0.5],[0,-C0,-0.5]] 
+      , fcs = [ [10,2,0],[5,10,0],[4,5,0],[8,4,0],[2,8,0]
+              , [11,1,3],[7,11,3],[6,7,3],[9,6,3],[1,9,3]
+              , [7,6,2],[10,7,2],[11,7,10],[5,11,10],[1,11,5]
+              , [4,1,5],[9,1,4],[8,9,4],[6,9,8],[2,6,8]]       
+      , npts = [for (v=pts) v/norm(v) ]
+    )
+    ( n==0?[npts, fcs]
+      : spherePF(r=r,n=n-1,_pts=npts,_fcs=fcs)
+    )
+  : let(
+      spts = concat(_pts
+                    , [ each for (f=_fcs) 
+                       [(_pts[f[0]]+_pts[f[1]])
+                       ,(_pts[f[1]]+_pts[f[2]])
+                       ,(_pts[f[2]]+_pts[f[0]])
                        ]
                       ]
-                    );
-      nsfcs = [each for (i=[0:len(fcs)-1]) 
-               [ [fcs[i][0], len(pts)+3*i+0, len(pts)+3*i+2]
-               , [len(pts)+3*i+0, len(pts)+3*i+1, len(pts)+3*i+2]
-               , [len(pts)+3*i+0, fcs[i][1], len(pts)+3*i+1]
-               , [len(pts)+3*i+2, len(pts)+3*i+1, fcs[i][2]]
+                    )
+    , nsfcs = [each for (i=[0:len(_fcs)-1]) 
+               [ [_fcs[i][0], len(_pts)+3*i+0, len(_pts)+3*i+2]
+               , [len(_pts)+3*i+0, len(_pts)+3*i+1, len(_pts)+3*i+2]
+               , [len(_pts)+3*i+0, _fcs[i][1], len(_pts)+3*i+1]
+               , [len(_pts)+3*i+2, len(_pts)+3*i+1, _fcs[i][2]]
                ]
-              ]; 
-      nspts = [for (v=spts) r*v/norm(v)]; 
-      subdiv_sphere(nspts, nsfcs, r, n-1); 
-    } 
-    else polyhedron(points=pts, faces=fcs); 
-  } 
-}
+              ]
+    , nspts = [for (v=spts) r*v/norm(v)] 
+    )
+    n==0? [nspts, nsfcs]  
+    : spherePF(r=r,n=n-1,_pts=nspts,_fcs=nsfcs) 
+); 
 ```
 ==> [Menu](#menu) 
 
