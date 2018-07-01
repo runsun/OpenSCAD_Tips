@@ -1,7 +1,7 @@
 # OpenSCAD Tips
 
 #### Menu
-| [**Official**](#Official_help) | [**tips**](#tips) | [**My_libs**](#my_libs) | [**Tools**](#Tools) | [**Libs**](#Libs) |  [**Lib_systems**](#lib_systems) | [**OpenSCAD_variations**](#openscad_variations) | [**Other_cads**](#other_cads) |  [**Other_Drawing_programs**](#other_drawing_programs) | [**Inspiration**](#inspiration) | [**Subdivision**](#subdivision) | [**References**](#references) |
+| [**Official**](#official_help) | [**tips**](#tips) | [**My_libs**](#my_libs) | [**Tools**](#tools) | [**Libs**](#libs) |  [**Lib_systems**](#lib_systems) | [**OpenSCAD_variations**](#openscad_variations) | [**Other_cads**](#other_cads) |  [**Other_Drawing_programs**](#other_drawing_programs) | [**Inspiration**](#inspiration) | [**Subdivision**](#subdivision) | [**References**](#references) |
 
 ### Official_help 
 * [OpenSCAD language ref](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language) 
@@ -90,6 +90,7 @@
 * [Neon22's Inkscape to OpenSCAD converter](http://www.thingiverse.com/thing:1065500)
 * [Desmos math calculator/plotter](https://www.desmos.com/calculator)
 * [Define/draw Bezier curve w/ desmos](https://www.desmos.com/calculator/cahqdxeshd)
+* jonathan.overholt's online cutlist tool: [legacy](https://jonathan.overholt.org/projects/cutlist), [new](http://cutlist.dotordotdot.com/current)
 
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
