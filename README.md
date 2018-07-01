@@ -175,5 +175,6 @@
 * Geometry: [2d collision detect in js](https://github.com/bmoren/p5.collide2D/blob/master/p5.collide2d.js) 
 * Data structure: [Winged-edge](http://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/model/winged-e.html)
 * UC Clavis Computer Graphics: [Sabastian Ng](https://www.youtube.com/watch?v=01YSK5gIEYQ) including subdivision, etc
+* Cutting-stock algorithm [wiki](https://en.wikipedia.org/wiki/Cutting_stock_problem), [jonathan.overholt](https://jonathan.overholt.org/projects/cutlist)
 
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu) 
