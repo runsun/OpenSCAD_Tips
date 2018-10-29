@@ -169,6 +169,8 @@
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
 ### References
+
+* [A Primer on Bézier Curves](https://pomax.github.io/bezierinfo/)
 * [The Cambridge Cluster Database](http://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/table.html): data pts of different spheres(Global Minima for the Thomson Problem) 
 * Clipping [Martinez-Rueda](https://github.com/w8r/martinez) )([src](https://www.sciencedirect.com/science/article/pii/S0965997813000379))
 * [Greiner-Hormann details](http://davis.wpi.edu/~matt/courses/clipping/) 
