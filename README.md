@@ -10,6 +10,7 @@
 * [Nightly snapshots](http://files.openscad.org/snapshots/) 
 * [OpenSCAD forum](http://forum.openscad.org)
 * [OpenSCAD freenode IRC](http://webchat.freenode.net/?channels=#openscad)
+* [OpenSCAD Libraries location](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries)
 
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
@@ -38,6 +39,7 @@
 * [isosphere](http://forum.openscad.org/New-Algorithm-for-Spheres-tp13306p17062.html)([2](http://blog.andreaskahler.com/2009/06/creating-icosphere-mesh-in-code.html)) 
 * [lerp](http://forum.openscad.org/Irregular-mesh-generated-tp13765p13779.html ) 
 * [Lazy Union by Parkinbot](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20126.html), [Ronaldo's](http://forum.openscad.org/rendering-for-paper-assembly-manual-tp20108p20140.html) 
+* Loft: [Marko's excellent code](http://forum.openscad.org/Sweeping-polygon-over-irregular-shape-tp24801p24880.html)
 * [makefile](http://forum.openscad.org/Makefile-for-building-complex-models-from-a-single-file-td22296.html ) 
 * [matrix](http://www.thingiverse.com/thing:10249/#files)([2](http://forum.openscad.org/restrict-hull-function-to-one-or-two-dimensions-tp16696p16722.html),[3](https://github.com/lhartmann/openscad_m4lib/blob/master/m4.scad)); [invert](https://github.com/openscad/openscad/issues/1040#issuecomment-233208606)  
 * Packaging: [1](http://forum.openscad.org/Managing-libraries-and-modules-in-complex-projects-td23200.html), [OpenSCAD-Modules by RobertFach](http://forum.openscad.org/A-Package-Manager-for-OpenSCAD-td23465.html)
