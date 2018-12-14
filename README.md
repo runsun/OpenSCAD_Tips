@@ -174,7 +174,7 @@
 
 * [A Primer on Bézier Curves](https://pomax.github.io/bezierinfo/), [B-splines](https://www.youtube.com/watch?v=qhQrRCJ-mVg), [Splines and Curves](http://graphics.stanford.edu/courses/cs148-09-fall/lectures/splines.pdf), [Hermite Curve Interpolation](http://www.cubic.org/docs/hermite.htm), [Curves and Splines](http://www.cs.cmu.edu/afs/cs/academic/class/15462-s10/www/lec-slides/lec06.pdf)
 * [The Cambridge Cluster Database](http://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/table.html): data pts of different spheres(Global Minima for the Thomson Problem) 
-* Clipping [Martinez-Rueda](https://github.com/w8r/martinez) )([src](https://www.sciencedirect.com/science/article/pii/S0965997813000379))
+* Clipping: [Vatti Arbitrary Polygon Clipping Algorithm](http://what-when-how.com/computer-graphics-and-geometric-modeling/clipping-basic-computer-graphics-part-5/), [Martinez-Rueda](https://github.com/w8r/martinez) ([src](https://www.sciencedirect.com/science/article/pii/S0965997813000379))
 * [Greiner-Hormann details](http://davis.wpi.edu/~matt/courses/clipping/) 
 * Math: [R.Penner's Easing func](http://robertpenner.com/easing/) 
 * Geometry: [2d collision detect in js](https://github.com/bmoren/p5.collide2D/blob/master/p5.collide2d.js) 
