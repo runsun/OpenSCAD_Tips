@@ -181,5 +181,6 @@
 * Data structure: [Winged-edge](http://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/model/winged-e.html)
 * UC Clavis Computer Graphics: [Sabastian Ng](https://www.youtube.com/watch?v=01YSK5gIEYQ) including subdivision, etc
 * Cutting-stock algorithm [wiki](https://en.wikipedia.org/wiki/Cutting_stock_problem), [jonathan.overholt](https://jonathan.overholt.org/projects/cutlist)
+* Triangulation: Shewchuk's Triangle [doc1](https://people.eecs.berkeley.edu/~jrs/papers/triangle.pdf),[doc2](http://www.cs.cmu.edu/~quake/triangle.delaunay.html), [code](http://www.cs.cmu.edu/~quake/triangle.html),
 
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu) 
