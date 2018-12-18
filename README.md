@@ -182,5 +182,6 @@
 * UC Clavis Computer Graphics: [Sabastian Ng](https://www.youtube.com/watch?v=01YSK5gIEYQ) including subdivision, etc
 * Cutting-stock algorithm [wiki](https://en.wikipedia.org/wiki/Cutting_stock_problem), [jonathan.overholt](https://jonathan.overholt.org/projects/cutlist)
 * Triangulation: Shewchuk's Triangle [doc1](https://people.eecs.berkeley.edu/~jrs/papers/triangle.pdf),[doc2](http://www.cs.cmu.edu/~quake/triangle.delaunay.html), [code](http://www.cs.cmu.edu/~quake/triangle.html),
+* Decide the sideness of a pt on a line or a plane: [1](https://stackoverflow.com/questions/1560492/how-to-tell-whether-a-point-is-to-the-right-or-left-side-of-a-line/53823213#53823213)
 
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu) 
