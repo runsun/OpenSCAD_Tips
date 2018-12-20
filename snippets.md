@@ -169,7 +169,9 @@ function Tmirror(v) =
        [[1,0,0],[0,1,0],[0,0,1]] :
        let(u = v/norm(v))
        [ [1,0,0] - 2*u[0]*u, [0,1,0] - 2*u[1]*u, [0,0,1] - 2*u[2]*u ];
-```       
+```   
+Usage example: [Placing obj on XY plane](http://forum.openscad.org/Rotation-question-tp24970p25000.html)
+
 ==> [Menu](#menu) 
 
 
