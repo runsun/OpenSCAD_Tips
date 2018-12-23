@@ -32,7 +32,7 @@
 * [excel-control](http://forum.openscad.org/Parameterlist-Excel-export-to-OpenSCAD-tp15363p15367.html) 
 * Flatten surface: [nophead's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19763.html), [runsun's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19782.html), [osresearch papercraft](https://github.com/osresearch/papercraft), [Parkinbot's](http://forum.openscad.org/flattening-curved-surfaces-tp19727p19807.html) 
 * [$fa,$fs,$fn](http://forum.openscad.org/better-than-fn-get-fs-working-a-tutorial-td1271.html), [1](http://forum.openscad.org/fn-fa-and-fs-tp17932p17936.html),[Ian](https://forum.makehackvoid.com/t/openscad-circle-calculations/721) 
-* [gear](http://lcamtuf.coredump.cx/gcnc/ch6/#6.1), [Parkinbot](http://www.thingiverse.com/thing:636119) 
+* [gear](http://lcamtuf.coredump.cx/gcnc/ch6/#6.1), [Parkinbot](http://www.thingiverse.com/thing:636119), [discussion](http://forum.openscad.org/Question-about-gear-library-td25035.html) 
 * Geodisc [William Adams](https://www.thingiverse.com/thing:10725),[2](https://www.thingiverse.com/thing:10540), [Yona Appletree](https://gist.github.com/Yona-Appletree/a03bc32a5c5ca6886e38)
 * hash: [1](http://forum.openscad.org/parameterized-models-td8303.html#a8306), [2](http://forum.openscad.org/Can-I-get-some-code-review-up-in-here-tp12341p12355.html), [Search-based hash](http://www.thingiverse.com/groups/openscad/topic:5610#comment-1093645) 
 * Hermite interpolation [Ronaldo's](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23352.html)
