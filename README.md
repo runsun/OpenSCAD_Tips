@@ -139,6 +139,7 @@
 * [TinkerCAD](https://www.tinkercad.com/)
 * [Wings](http://www.wings3d.com/)
 * [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software)
+* [Top 5 CAD Software Available for Linux](https://itsfoss.com/cad-software-linux)
 
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
