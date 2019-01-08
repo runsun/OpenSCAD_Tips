@@ -96,7 +96,7 @@ module Line( pts, r=0.05, closed=false, color=undef, transp=1, fn=4 )
   if(len(pts)>1 && len(pts[0])>1 && r>0) 
   { 
     // Convert to 3d if 2d; Attach 1st pt if closed
-    pts  = concat( [for(p=pts) [ p[0],p[1],p[2]==undef?0:p[1] ]],  
+    pts  = concat( [for(p=pts) [ p[0],p[1],p[2]==undef?0:p[2] ]],  
                   closed? [[ pts[0][0], pts[0][1], pts[0][2]==undef?0:pts[0][2] ]] : []
     ); 
     color(color,transp)
