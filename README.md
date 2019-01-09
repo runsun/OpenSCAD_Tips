@@ -60,7 +60,7 @@
 * [tail Recursion](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)([2](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16962.html),[3](http://forum.openscad.org/Tail-recursion-td17040.html),[4](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16941.html)) 
 * [text](http://forum.openscad.org/Wrapping-text-around-a-complex-geometry-tc18145.html), [Carl Davidson's str lib](https://www.thingiverse.com/thing:526023), [Chambered](http://forum.openscad.org/Chamfered-3D-text-td23162.html) 
 * testing: [tests in OpenSCAD](http://forum.openscad.org/Clarifying-behaviors-tp18492p18507.html)([2](http://forum.openscad.org/tests-in-OpenSCAD-td8978.html),[Regression test](https://github.com/openscad/openscad/blob/master/doc/testing.txt)), [RoyaSutton](http://forum.openscad.org/Doxygen-openscad-amu-and-omdl-Documenting-and-Design-Flow-td19924.html)([pdf](https://cdn.thingiverse.com/assets/3c/16/d2/00/ea/refman.pdf)), [runsun's doctest](https://github.com/runsun/openscad_doctest)
-* [triangulation](http://forum.openscad.org/Simple-polygon-triangulation-td16755.html), [Parkinbot](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16837.html), [NateTG's](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23395.html), [NateTG's 2](https://gist.github.com/NateTG/b350378c56f436d3996a2107f7cba965) 
+* Triangulation: [Ronaldo](http://forum.openscad.org/Polyhedron-tube-with-irregular-sides-is-it-possible-tp13813p25151.html) , [forum](http://forum.openscad.org/Simple-polygon-triangulation-td16755.html), [Parkinbot](http://forum.openscad.org/Simple-polygon-triangulation-tp16755p16837.html), [NateTG's](http://forum.openscad.org/making-vases-perhaps-with-InkScape-tp23301p23395.html), [NateTG's 2](https://gist.github.com/NateTG/b350378c56f436d3996a2107f7cba965) 
 * Tube: [Ronaldo's](http://forum.openscad.org/file/n19680/Tube_example.scad), [Runsun's](http://forum.openscad.org/Bent-rod-td14003.html), [Johan's](http://forum.openscad.org/method-to-sweep-or-skin-a-hollow-object-without-difference-function-tp19677p19688.html) 
 * [type-checking](http://forum.openscad.org/Determining-what-data-type-a-variable-is-holding-tp16111p16126.html) 
 * [unit](http://forum.openscad.org/Output-inch-hardware-sizes-td19204.html) 
@@ -173,6 +173,7 @@
 
 ### References
 
+* [Triangulation by ear clipping](https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf)
 * [A Primer on Bézier Curves](https://pomax.github.io/bezierinfo/), [B-splines](https://www.youtube.com/watch?v=qhQrRCJ-mVg), [Splines and Curves](http://graphics.stanford.edu/courses/cs148-09-fall/lectures/splines.pdf), [Hermite Curve Interpolation](http://www.cubic.org/docs/hermite.htm), [Curves and Splines](http://www.cs.cmu.edu/afs/cs/academic/class/15462-s10/www/lec-slides/lec06.pdf)
 * [The Cambridge Cluster Database](http://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/table.html): data pts of different spheres(Global Minima for the Thomson Problem) 
 * Clipping: [Vatti Arbitrary Polygon Clipping Algorithm](http://what-when-how.com/computer-graphics-and-geometric-modeling/clipping-basic-computer-graphics-part-5/), [Martinez-Rueda](https://github.com/w8r/martinez) ([src](https://www.sciencedirect.com/science/article/pii/S0965997813000379))
