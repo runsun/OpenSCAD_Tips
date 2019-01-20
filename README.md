@@ -101,6 +101,7 @@
 * [Brendan M. Sleight's lasercut](https://github.com/bmsleight/lasercut)
 * [Hans Loeblich's functional](https://github.com/thehans/FunctionalOpenSCAD/blob/master/functional.scad) ([discussion](http://forum.openscad.org/Functional-OpenSCAD-working-with-vertex-data-td21080.html)) 
 * [Carl Davidson's Relativity](https://github.com/davidson16807/relativity.scad/wiki) 
+* [FunctionalOpenSCAD by thehans](https://github.com/thehans/functionalopenscad)
 
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu)
 
@@ -183,7 +184,7 @@
 * Data structure: [Winged-edge](http://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/model/winged-e.html)
 * UC Clavis Computer Graphics: [Sabastian Ng](https://www.youtube.com/watch?v=01YSK5gIEYQ) including subdivision, etc
 * Cutting-stock algorithm [wiki](https://en.wikipedia.org/wiki/Cutting_stock_problem), [jonathan.overholt](https://jonathan.overholt.org/projects/cutlist)
-* Triangulation: Shewchuk's Triangle [doc1](https://people.eecs.berkeley.edu/~jrs/papers/triangle.pdf),[doc2](http://www.cs.cmu.edu/~quake/triangle.delaunay.html), [code](http://www.cs.cmu.edu/~quake/triangle.html),
+* Triangulation: Shewchuk's Triangle [doc1](https://people.eecs.berkeley.edu/~jrs/papers/triangle.pdf),[doc2](http://www.cs.cmu.edu/~quake/triangle.delaunay.html), [code](http://www.cs.cmu.edu/~quake/triangle.html), [poly2tri lib](https://doc-snapshots.qt.io/qt5-5.9/qtlocation-attribution-poly2tri.html)
 * Decide the sideness of a pt on a line or a plane: [1](https://stackoverflow.com/questions/1560492/how-to-tell-whether-a-point-is-to-the-right-or-left-side-of-a-line/53823213#53823213)
 
 ==> [Edit](https://github.com/runsun/OpenSCAD_Tips/edit/master/README.md) | [Menu](#menu) 
